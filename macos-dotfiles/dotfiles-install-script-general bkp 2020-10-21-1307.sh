@@ -205,15 +205,31 @@ symlink_dotfiles() {
 # cd macos-dotfiles/
 # symlink_dotfiles
 
+################################
+
+## TODO WIP: Do these manually for now
+## TODO WIP: Maybe use ln -shf
 symlink_dirs() {
     echo "symlink_dirs..."
-    test -h "$HOME"/bin || ln -sf $PWD/bin "$HOME"/bin
+    
+    ## bin
+    # test -h "$HOME"/bin || ln -sf $PWD/bin "$HOME"/bin
+
+    ## oh-my-zsh
     # test -h "$HOME"/.oh-my-zsh || ln -sf "$DOTFILES_DIR"/_antigen/bundles/robbyrussell/oh-my-zsh ~/.oh-my-zsh    
-    # test -h "$HOME"/Library/Application\ Support/Sublime\ Text\ 3/Packages/User || ln -sf "$DOTFILES_DIR"/_config/user_library_application_support_atk2/Sublime\ Text\ 3/Packages/User "$HOME"/Library/Application\ Support/Sublime\ Text\ 3/Packages
-    # test -h "$HOME"/Library/Application\ Support/GIMP || ln -sf "$DOTFILES_DIR"/_config/user_library_application_support_atk2/GIMP "$HOME"/Library/Application\ Support
-    ## Do the one below for iTerm2 manually from iTerm2's settings
-    ## test -h "$HOME"/Library/Application\ Support/iTerm2/com.googlecode.iterm2.plist || ln -sf "$DOTFILES_DIR"/_config/custom_atk2/iterm2_atk2/com.googlecode.iterm2.plist
-    ## test -h "$HOME"/.macos || ln -sf "$DOTFILES_DIR"/macos-dotfiles/.macos ~/.macos
+
+    ## Sublime Text 3
+    # test -h "$HOME"/Library/Application\ Support/Sublime\ Text\ 3/Packages/User || ln -sf "$DOTFILES_DIR"/_config/user_library_application_support_custom/Sublime\ Text\ 3/Packages/User "$HOME"/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+    
+    ## GIMP
+    # test -h "$HOME"/Library/Application\ Support/GIMP || ln -sf "$DOTFILES_DIR"/_config/user_library_application_support_custom/GIMP "$HOME"/Library/Application\ Support/GIMP
+    
+    ## iTerm2
+    # test -h "$HOME"/Library/Application\ Support/iTerm2/com.googlecode.iterm2.plist || ln -sf "$DOTFILES_DIR"/_config/user_library_application_support_custom/iTerm2/com.googlecode.iterm2.plist "$HOME"/Library/Application\ Support/iTerm2/com.googlecode.iterm2.plist
+
+    ## vscode
+    # test -h "$HOME"/Library/Application\ Support/Code/User/settings.json || ln -sf "$DOTFILES_DIR"/_config/user_library_application_support_custom/Code/User/settings.json "$HOME"/Library/Application\ Support/Code/User/settings.json
+    # test -h "$HOME"/Library/Application\ Support/Code/User/sync || ln -sf "$DOTFILES_DIR"/_config/user_library_application_support_custom/Code/User/sync "$HOME"/Library/Application\ Support/Code/User/sync
 }
 # symlink_dirs
 
@@ -258,10 +274,10 @@ setup_awesome_fonts() {
 ## It catalogs your collection, automatically improving its metadata as it goes using the MusicBrainz database. 
 ## Then it provides a bouquet of tools for manipulating and accessing your music.
 ## http://akeil.net/listings/beets.config.yaml.html
-install_beets() {
+# install_beets() {
     # echo "$pip install beets"
     # pip3 "$install beets"
-}
+# }
 # install_beets
 
 ################################
