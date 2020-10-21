@@ -1,0 +1,22 @@
+Welcome to ArmoryBlue! 💁
+
+This theme has undergone many tweaks between Wes Bos and my own doctoring, and it looks pretty dope. 👌
+
+You can see all the refinements and suggested settings at <https://github.com/armory-io/armory-blue> as well as suggest any tweaks you may have.
+
+Many new things have been added, including:
+
+- Sidebar Icons
+- Current file highlighting in sidebar
+- highlighted tab
+- new dirty state tab circle
+- small tab refinements
+- autocomplete, goto anything and command palette refinements
+
+🔥📖 Wes Bos wrote a book + video series on Sublime Text! → SublimeTextBook.com
+🔥📼 He also wrote a Premium training course on ES6 → ES6.io
+🔥📼 And he created a Training series on React.js → ReactForBeginners.com
+
+With Love And Care,
+
+@jackreis and @wesbos

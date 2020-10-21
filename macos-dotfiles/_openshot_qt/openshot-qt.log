@@ -1,0 +1,295 @@
+         app:INFO ------------------------------------------------
+         app:INFO             Sat Jun 27 12:34:23 2020            
+         app:INFO               Starting new session              
+         app:INFO ------------------------------------------------
+         app:INFO             OpenShot (version 2.5.1)            
+         app:INFO ------------------------------------------------
+         app:INFO openshot-qt version: 2.5.1
+         app:INFO libopenshot version: 0.2.5
+         app:INFO platform: Darwin-18.7.0-x86_64-i386-64bit
+         app:INFO processor: i386
+         app:INFO machine: x86_64
+         app:INFO python version: 3.6.4
+         app:INFO qt5 version: 5.5.1
+         app:INFO pyqt5 version: 5.5.1
+    language:INFO Qt Detected Languages: ['en-GB', 'bg']
+    language:INFO LANG Environment Variable: 
+    language:INFO LOCALE Environment Variable: 
+    language:INFO OpenShot Preference Language: Default
+project_data:INFO Setting default profile to HD 720p 30 fps
+         app:INFO Setting font to /Applications/OpenShot Video Editor.app/Contents/Resources/images/fonts/Ubuntu-R.ttf
+logger_libopenshot:INFO Connecting to libopenshot with debug port: 5556
+         app:INFO Setting custom dark theme
+     ui_util:INFO Initializing UI for MainWindow
+ files_model:INFO updating files model.
+transition_model:INFO updating transitions model.
+effects_model:INFO updating effects model.
+     version:INFO Found current version: {"openshot_version": "2.5.1"}
+properties_model:INFO updating clip properties model.
+transition_model:INFO updating transitions model.
+ files_model:INFO updating files model.
+ main_window:INFO InitCacheSettings
+ main_window:INFO cache-mode: CacheMemory
+ main_window:INFO cache-limit-mb: 250
+ main_window:INFO Creating CacheMemory object with 262144000 byte limit
+preview_thread:INFO QThread Start Method Invoked
+preview_thread:INFO initPlayer
+ main_window:INFO Clear all thumbnails: /Users/alkuzmanov/.openshot_qt/thumbnail
+ main_window:INFO Clear all animations: /Users/alkuzmanov/.openshot_qt/blender
+ main_window:INFO Clear all titles: /Users/alkuzmanov/.openshot_qt/title
+ main_window:INFO updateStatusChanged
+ main_window:INFO updateStatusChanged
+         app:INFO Process command-line arguments: ['/Applications/OpenShot Video Editor.app/Contents/MacOS/openshot-qt']
+ main_window:INFO recover_backup
+project_data:INFO Setting default profile to HD 720p 30 fps
+preview_thread:INFO refreshFrame
+preview_thread:INFO self.player.Position(): 1
+video_widget:INFO Load: Set video widget display aspect ratio to: 1.7777777910232544
+video_widget:INFO Set video widget pixel aspect ratio to: 1.0
+ main_window:INFO updateStatusChanged
+ main_window:INFO foundCurrentVersion: Found the latest version: 2.5.1
+preview_thread:INFO onModeChanged
+timeline_webview:INFO Qt Found!
+timeline_webview:INFO $scope.Qt = true;
+timeline_webview:INFO SetThumbAddress: http://127.0.0.1:65374/thumbnails/
+timeline_webview:INFO UpdateLayerIndex
+properties_model:INFO Update item: 
+properties_model:INFO updating clip properties model.
+preview_thread:INFO refreshFrame
+preview_thread:INFO self.player.Position(): 1
+timeline_webview:INFO SortItems
+timeline_webview:INFO UpdateLayerIndex
+    timeline:INFO Adjusting max size of preview image: PyQt5.QtCore.QSize(722, 406)
+preview_thread:INFO refreshFrame
+preview_thread:INFO self.player.Position(): 1
+    timeline:INFO Adjusting max size of preview image: PyQt5.QtCore.QSize(1284, 722)
+preview_thread:INFO refreshFrame
+preview_thread:INFO self.player.Position(): 1
+project_data:INFO _set key: ['files'] values: {'acodec': 'aac', 'audio_bit_rate': 310861, 'audio_stream_index': 1, 'audio_timebase': {'den': 44100, 'num': 1}, 'channel_layout': 3, 'channels': 2, 'display_ratio': {'den': 5, 'num': 8}, 'duration': 612.13232421875, 'file_size': '235134567', 'fps': {'den': 9182, 'num': 547545}, 'has_audio': True, 'has_single_image': False, 'has_video': True, 'height': 1200, 'interlaced_frame': False, 'metadata': {'com.apple.quicktime.creationdate': '2020-06-27T10:54:03+0300', 'com.apple.quicktime.make': 'Apple', 'com.apple.quicktime.model': 'MacBookPro12,1', 'com.apple.quicktime.software': 'Mac OS X 10.14.6 (18G103)', 'compatible_brands': 'qt', 'creation_time': '2020-06-27T08:04:37.000000Z', 'encoder': 'H.264', 'handler_name': 'Core Media Data Handler', 'language': 'und', 'major_brand': 'qt', 'minor_version': '0'}, 'path': '/Users/alkuzmanov/Documents/Videa za youtube L/YouTube delete multiple playlists video 2/YouTube delete playlists part 1.mov', 'pixel_format': 0, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 44100, 'top_field_first': True, 'type': 'FFmpegReader', 'vcodec': 'h264', 'video_bit_rate': 384123, 'video_length': '36503', 'video_stream_index': 0, 'video_timebase': {'den': 6000, 'num': 1}, 'width': 1920, 'media_type': 'video', 'id': 'L8EU84Z33R'} add: True partial: False remove: False
+timeline_webview:INFO SortItems
+timeline_webview:INFO UpdateLayerIndex
+ files_model:INFO updating files model.
+ files_model:INFO updating files model.
+ main_window:INFO updateStatusChanged
+ files_model:INFO updating files model.
+project_data:INFO _set key: ['import_path'] values: /Users/alkuzmanov/Documents/Videa za youtube L/YouTube delete multiple playlists video 2 add: False partial: False remove: False
+ main_window:INFO updateStatusChanged
+ main_window:INFO Imported media file /Users/alkuzmanov/Documents/Videa za youtube L/YouTube delete multiple playlists video 2/YouTube delete playlists part 1.mov
+files_listview:INFO currentChanged
+files_listview:INFO updateSelection
+project_data:INFO _set key: ['clips'] values: {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'crop_height': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'crop_width': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'crop_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'crop_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 612.13232421875, 'effects': [], 'end': 612.13232421875, 'gravity': 4, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '2I6PFL5FVP', 'layer': 5000000, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'mixing': 0, 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 73.8, 'reader': {'acodec': 'aac', 'audio_bit_rate': 310861, 'audio_stream_index': 1, 'audio_timebase': {'den': 44100, 'num': 1}, 'channel_layout': 3, 'channels': 2, 'display_ratio': {'den': 5, 'num': 8}, 'duration': 612.13232421875, 'file_size': '235134567', 'fps': {'den': 9182, 'num': 547545}, 'has_audio': True, 'has_single_image': False, 'has_video': True, 'height': 1200, 'interlaced_frame': False, 'metadata': {'com.apple.quicktime.creationdate': '2020-06-27T10:54:03+0300', 'com.apple.quicktime.make': 'Apple', 'com.apple.quicktime.model': 'MacBookPro12,1', 'com.apple.quicktime.software': 'Mac OS X 10.14.6 (18G103)', 'compatible_brands': 'qt', 'creation_time': '2020-06-27T08:04:37.000000Z', 'encoder': 'H.264', 'handler_name': 'Core Media Data Handler', 'language': 'und', 'major_brand': 'qt', 'minor_version': '0'}, 'path': '/Users/alkuzmanov/Documents/Videa za youtube L/YouTube delete multiple playlists video 2/YouTube delete playlists part 1.mov', 'pixel_format': 0, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 44100, 'top_field_first': True, 'type': 'FFmpegReader', 'vcodec': 'h264', 'video_bit_rate': 384123, 'video_length': '36503', 'video_stream_index': 0, 'video_timebase': {'den': 6000, 'num': 1}, 'width': 1920}, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 0.0, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'L8EU84Z33R', 'title': 'YouTube delete playlists part 1.mov'} add: True partial: False remove: False
+project_data:INFO _set key: ['duration'] values: 695.93232421875 add: False partial: False remove: False
+timeline_webview:INFO SortItems
+timeline_webview:INFO UpdateLayerIndex
+ main_window:INFO updateStatusChanged
+timeline_webview:INFO SortItems
+timeline_webview:INFO UpdateLayerIndex
+properties_model:INFO {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'anchor': 0, 'channel_filter': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'channel_mapping': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'crop_height': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'crop_width': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'crop_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'crop_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'display': 0, 'duration': 612.13232421875, 'effects': [], 'end': 612.13232421875, 'gravity': 4, 'has_audio': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'has_video': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'id': '2I6PFL5FVP', 'layer': 5000000, 'location_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'location_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'mixing': 0, 'perspective_c1_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c1_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c2_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c3_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_x': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'perspective_c4_y': {'Points': [{'co': {'X': 1.0, 'Y': -1.0}, 'interpolation': 2}]}, 'position': 73.8, 'reader': {'acodec': 'aac', 'audio_bit_rate': 310861, 'audio_stream_index': 1, 'audio_timebase': {'den': 44100, 'num': 1}, 'channel_layout': 3, 'channels': 2, 'display_ratio': {'den': 5, 'num': 8}, 'duration': 612.13232421875, 'file_size': '235134567', 'fps': {'den': 9182, 'num': 547545}, 'has_audio': True, 'has_single_image': False, 'has_video': True, 'height': 1200, 'interlaced_frame': False, 'metadata': {'com.apple.quicktime.creationdate': '2020-06-27T10:54:03+0300', 'com.apple.quicktime.make': 'Apple', 'com.apple.quicktime.model': 'MacBookPro12,1', 'com.apple.quicktime.software': 'Mac OS X 10.14.6 (18G103)', 'compatible_brands': 'qt', 'creation_time': '2020-06-27T08:04:37.000000Z', 'encoder': 'H.264', 'handler_name': 'Core Media Data Handler', 'language': 'und', 'major_brand': 'qt', 'minor_version': '0'}, 'path': '/Users/alkuzmanov/Documents/Videa za youtube L/YouTube delete multiple playlists video 2/YouTube delete playlists part 1.mov', 'pixel_format': 0, 'pixel_ratio': {'den': 1, 'num': 1}, 'sample_rate': 44100, 'top_field_first': True, 'type': 'FFmpegReader', 'vcodec': 'h264', 'video_bit_rate': 384123, 'video_length': '36503', 'video_stream_index': 0, 'video_timebase': {'den': 6000, 'num': 1}, 'width': 1920}, 'rotation': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'scale': 1, 'scale_x': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'scale_y': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'shear_x': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'shear_y': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'interpolation': 2}]}, 'start': 0.0, 'time': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'volume': {'Points': [{'co': {'X': 1.0, 'Y': 1.0}, 'interpolation': 2}]}, 'wave_color': {'alpha': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'blue': {'Points': [{'co': {'X': 1.0, 'Y': 255.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'green': {'Points': [{'co': {'X': 1.0, 'Y': 123.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}, 'red': {'Points': [{'co': {'X': 1.0, 'Y': 0.0}, 'handle_left': {'X': 0.5, 'Y': 1.0}, 'handle_right': {'X': 0.5, 'Y': 0.0}, 'handle_type': 0, 'interpolation': 0}]}}, 'waveform': False, 'file_id': 'L8EU84Z33R', 'title': 'YouTube delete playlists part 1.mov'}
+properties_model:INFO updating clip properties model.
+ main_window:INFO updateStatusChanged
+preview_thread:INFO refreshFrame
+preview_thread:INFO self.player.Position(): 1
+ main_window:INFO main::addSelection: item_id: , item_type: effect, clear_existing: True
+ main_window:INFO main::addSelection: item_id: 2I6PFL5FVP, item_type: clip, clear_existing: True
+properties_model:INFO Update item: clip
+properties_model:INFO Update frame to 1
+properties_model:INFO updating clip properties model.
+timeline_webview:INFO Dropping item on timeline - item_id: 2I6PFL5FVP, item_type: clip
+project_data:INFO _set key: ['clips', {'id': '2I6PFL5FVP'}] values: {'id': '2I6PFL5FVP', 'layer': 5000000, 'position': 0, 'start': 0, 'end': 612.13232421875} add: False partial: False remove: False
+timeline_webview:INFO SortItems
+timeline_webview:INFO UpdateLayerIndex
+properties_model:INFO {'id': '2I6PFL5FVP', 'layer': 5000000, 'position': 0, 'start': 0, 'end': 612.13232421875}
+properties_model:INFO updating clip properties model.
+ main_window:INFO updateStatusChanged
+preview_thread:INFO refreshFrame
+preview_thread:INFO self.player.Position(): 1
+properties_model:INFO Update frame to 1
+properties_model:INFO updating clip properties model.
+preview_thread:INFO refreshFrame
+preview_thread:INFO self.player.Position(): 1
+properties_model:INFO Update frame to 1
+properties_model:INFO updating clip properties model.
+ main_window:INFO main::addSelection: item_id: , item_type: effect, clear_existing: True
+ main_window:INFO main::addSelection: item_id: 2I6PFL5FVP, item_type: clip, clear_existing: True
+properties_model:INFO Update item: clip
+properties_model:INFO Update frame to 1
+properties_model:INFO updating clip properties model.
+properties_model:INFO Update frame to 1
+properties_model:INFO updating clip properties model.
+preview_thread:INFO onModeChanged
+properties_model:INFO Update frame to 1
+properties_model:INFO updating clip properties model.
+preview_thread:INFO onModeChanged
+preview_thread:INFO onModeChanged
+preview_thread:INFO previewFrame: 28
+preview_thread:INFO self.player.Position(): 28
+properties_model:INFO Update frame to 28
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 37
+preview_thread:INFO self.player.Position(): 37
+properties_model:INFO Update frame to 37
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 46
+preview_thread:INFO self.player.Position(): 46
+properties_model:INFO Update frame to 46
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 51
+preview_thread:INFO self.player.Position(): 51
+properties_model:INFO Update frame to 51
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 55
+preview_thread:INFO self.player.Position(): 55
+properties_model:INFO Update frame to 55
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 60
+preview_thread:INFO self.player.Position(): 60
+properties_model:INFO Update frame to 60
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 82
+preview_thread:INFO self.player.Position(): 82
+properties_model:INFO Update frame to 82
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 87
+preview_thread:INFO self.player.Position(): 87
+properties_model:INFO Update frame to 87
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 104
+preview_thread:INFO self.player.Position(): 104
+properties_model:INFO Update frame to 104
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 114
+preview_thread:INFO self.player.Position(): 114
+properties_model:INFO Update frame to 114
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 118
+preview_thread:INFO self.player.Position(): 118
+properties_model:INFO Update frame to 118
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 132
+preview_thread:INFO self.player.Position(): 132
+properties_model:INFO Update frame to 132
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 136
+preview_thread:INFO self.player.Position(): 136
+properties_model:INFO Update frame to 136
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 140
+preview_thread:INFO self.player.Position(): 140
+properties_model:INFO Update frame to 140
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 145
+preview_thread:INFO self.player.Position(): 145
+properties_model:INFO Update frame to 145
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 154
+preview_thread:INFO self.player.Position(): 154
+properties_model:INFO Update frame to 154
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 159
+preview_thread:INFO self.player.Position(): 159
+properties_model:INFO Update frame to 159
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 168
+preview_thread:INFO self.player.Position(): 168
+properties_model:INFO Update frame to 168
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 177
+preview_thread:INFO self.player.Position(): 177
+properties_model:INFO Update frame to 177
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 185
+preview_thread:INFO self.player.Position(): 185
+properties_model:INFO Update frame to 185
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 190
+preview_thread:INFO self.player.Position(): 190
+properties_model:INFO Update frame to 190
+properties_model:INFO updating clip properties model.
+properties_model:INFO Update frame to 190
+properties_model:INFO updating clip properties model.
+preview_thread:INFO onModeChanged
+preview_thread:INFO onModeChanged
+ main_window:INFO main::addSelection: item_id: , item_type: effect, clear_existing: True
+ main_window:INFO main::addSelection: item_id: 2I6PFL5FVP, item_type: clip, clear_existing: True
+properties_model:INFO Update item: clip
+properties_model:INFO Update frame to 190
+properties_model:INFO updating clip properties model.
+preview_thread:INFO previewFrame: 2143
+preview_thread:INFO self.player.Position(): 2143
+properties_model:INFO Update frame to 2143
+properties_model:INFO updating clip properties model.
+properties_model:INFO Update frame to 2143
+properties_model:INFO updating clip properties model.
+preview_thread:INFO onModeChanged
+preview_thread:INFO onModeChanged
+ main_window:INFO Prompt user to save project
+ main_window:INFO ---------------- Shutting down -----------------
+         app:INFO ------------------------------------------------
+         app:INFO             Sat Jun 27 13:43:26 2020            
+         app:INFO               Starting new session              
+         app:INFO ------------------------------------------------
+         app:INFO             OpenShot (version 2.5.1)            
+         app:INFO ------------------------------------------------
+         app:INFO openshot-qt version: 2.5.1
+         app:INFO libopenshot version: 0.2.5
+         app:INFO platform: Darwin-18.7.0-x86_64-i386-64bit
+         app:INFO processor: i386
+         app:INFO machine: x86_64
+         app:INFO python version: 3.6.4
+         app:INFO qt5 version: 5.5.1
+         app:INFO pyqt5 version: 5.5.1
+    language:INFO Qt Detected Languages: ['en-GB', 'bg']
+    language:INFO LANG Environment Variable: 
+    language:INFO LOCALE Environment Variable: 
+    language:INFO OpenShot Preference Language: Default
+project_data:INFO Setting default profile to HD 720p 30 fps
+         app:INFO Setting font to /Applications/OpenShot Video Editor.app/Contents/Resources/images/fonts/Ubuntu-R.ttf
+logger_libopenshot:INFO Connecting to libopenshot with debug port: 5556
+         app:INFO Setting custom dark theme
+     ui_util:INFO Initializing UI for MainWindow
+ files_model:INFO updating files model.
+transition_model:INFO updating transitions model.
+effects_model:INFO updating effects model.
+     version:INFO Found current version: {"openshot_version": "2.5.1"}
+properties_model:INFO updating clip properties model.
+transition_model:INFO updating transitions model.
+ files_model:INFO updating files model.
+ main_window:INFO InitCacheSettings
+ main_window:INFO cache-mode: CacheMemory
+ main_window:INFO cache-limit-mb: 250
+ main_window:INFO Creating CacheMemory object with 262144000 byte limit
+preview_thread:INFO QThread Start Method Invoked
+preview_thread:INFO initPlayer
+ main_window:ERROR Unhandled crash detected... will attempt to recover backup project: /Users/alkuzmanov/.openshot_qt/backup.osp
+ main_window:INFO updateStatusChanged
+ main_window:INFO updateStatusChanged
+         app:INFO Process command-line arguments: ['/Applications/OpenShot Video Editor.app/Contents/MacOS/openshot-qt']
+ main_window:INFO recover_backup
+project_data:INFO Setting default profile to HD 720p 30 fps
+preview_thread:INFO refreshFrame
+preview_thread:INFO self.player.Position(): 1
+video_widget:INFO Load: Set video widget display aspect ratio to: 1.7777777910232544
+video_widget:INFO Set video widget pixel aspect ratio to: 1.0
+ main_window:INFO updateStatusChanged
+ main_window:INFO foundCurrentVersion: Found the latest version: 2.5.1
+preview_thread:INFO onModeChanged
+timeline_webview:INFO Qt Found!
+timeline_webview:INFO $scope.Qt = true;
+timeline_webview:INFO SetThumbAddress: http://127.0.0.1:49422/thumbnails/
+timeline_webview:INFO UpdateLayerIndex
+properties_model:INFO Update item: 
+properties_model:INFO updating clip properties model.
+preview_thread:INFO refreshFrame
+preview_thread:INFO self.player.Position(): 1
+timeline_webview:INFO SortItems
+timeline_webview:INFO UpdateLayerIndex
+    timeline:INFO Adjusting max size of preview image: PyQt5.QtCore.QSize(722, 406)
+preview_thread:INFO refreshFrame
+preview_thread:INFO self.player.Position(): 1
+ main_window:INFO ---------------- Shutting down -----------------
+preview_thread:INFO onModeChanged
+preview_thread:INFO exiting thread
+   thumbnail:INFO Shutting down thumbnail server: ('127.0.0.1', 49422)
+         app:INFO             OpenShot's session ended            
+         app:INFO             Sat Jun 27 13:51:46 2020            
+         app:INFO ================================================

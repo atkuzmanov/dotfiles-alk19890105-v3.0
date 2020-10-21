@@ -1,0 +1,9 @@
+plugins: fromfilename info web
+directory: ~/Music
+library: ~/Music
+
+
+import:
+    move: yes
+match:
+    strong_rec_thresh: 0.10

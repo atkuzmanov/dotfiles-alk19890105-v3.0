@@ -1,0 +1,30 @@
+# Midnight theme for sublime text 3
+
+Enjoy the dark theme for sublime text which is very easy to the eyes.
+
+## Installation
+
+### Activating Theme
+
+To activate the theme, open up user preferences file by clicking `Sublime Text menu -> Preferences -> Settings - User`.
+There are two different dark themes, `dark` and `hybrid`.
+
+To activate dark theme, put the following in the Preferences file.
+```
+"theme": "Midnight-dark.sublime-theme",
+```
+
+To activate hybrid theme, put the following in the Preferences file.
+```
+"theme": "Midnight-hybrid.sublime-theme",
+```
+
+### Activating color scheme
+
+There are 2 different color schemes that go hand in hand with two different themes provided.
+If you are using `dark` theme, please use `dark` color scheme and if you are using `hybrid` theme, its gonna be much better if you use `hybrid` color scheme.
+
+The easiest way to enable a color scheme is by going to
+`Sublime Text Menu -> Preferences -> Color Scheme -> Theme - Midnight -> Midnight.(dark|hybrid)`.
+
+Enjoy!

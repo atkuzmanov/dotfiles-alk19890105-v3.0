@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///Users/alkuzmanov/Documents/GoogleDrive/Programirane%20neshta%20failove%20alk19890105/Stock%20images%20teporary/srednoshtnalisitsa%20stock%20kartinki/1270352%20copy.jpg" added="2020-09-29T11:13:57Z" modified="2020-09-29T11:16:19Z" visited="2020-09-29T11:13:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.8 %u&apos;" modified="2020-09-29T11:16:19Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///Users/alkuzmanov/Documents/GoogleDrive/Programirane%20neshta%20failove%20alk19890105/Stock%20images%20teporary/srednoshtnalisitsa%20stock%20kartinki/1270352%20copy%202.jpg" added="2020-09-29T11:17:02Z" modified="2020-09-29T11:18:44Z" visited="2020-09-29T11:17:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.8 %u&apos;" modified="2020-09-29T11:18:44Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///Users/alkuzmanov/Downloads/Midnight%20blue%20colour%202.png" added="2020-09-29T11:24:28Z" modified="2020-09-29T11:25:18Z" visited="2020-09-29T11:24:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.8 %u&apos;" modified="2020-09-29T11:25:18Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

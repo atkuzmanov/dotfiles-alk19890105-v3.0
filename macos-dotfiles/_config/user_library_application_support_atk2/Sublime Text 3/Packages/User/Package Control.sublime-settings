@@ -1,0 +1,16 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"MarkdownLivePreview",
+		"MarkdownPreview",
+		"Markmon real-time markdown preview",
+		"Package Control",
+		"SublimeLinter-contrib-markdownlint",
+		"Text Pastry",
+		"Theme - Cobalt2"
+	]
+}

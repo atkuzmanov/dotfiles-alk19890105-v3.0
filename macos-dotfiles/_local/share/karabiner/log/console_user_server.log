@@ -1,0 +1,560 @@
+[2019-05-01 17:45:13.903] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:13.904] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:13.904] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:14.907] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:14.908] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:14.908] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:15.896] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:15.897] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:15.897] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:16.902] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:16.903] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:16.903] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:17.907] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:17.908] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:17.908] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:18.897] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:18.898] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:18.898] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:19.896] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:19.896] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:19.896] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:20.896] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:20.897] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:20.897] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:21.897] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:21.898] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:21.898] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:22.897] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:22.898] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:22.898] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:23.904] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:23.905] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:23.905] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:24.907] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:24.908] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:24.908] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:25.898] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:25.898] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:25.899] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:26.898] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:26.899] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:26.899] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:27.903] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:27.904] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:27.904] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:28.846] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:28.847] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:28.847] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:29.898] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:29.899] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:29.899] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:30.904] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:30.904] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:30.904] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:31.897] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:31.898] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:31.898] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:32.896] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:32.897] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:32.897] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:33.898] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:33.899] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:33.899] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:34.901] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:34.902] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:34.902] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:35.904] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:35.905] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:35.905] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:36.902] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:36.903] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:36.903] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:37.886] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:37.887] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:37.887] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:38.896] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:38.897] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:38.897] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:39.899] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:39.899] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:39.900] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:40.899] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:40.900] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:40.900] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:41.898] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:41.899] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:41.899] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:42.908] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:42.909] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:42.909] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:43.898] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:43.899] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:43.899] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:44.833] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:44.834] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:44.834] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:45.907] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:45.908] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:45.908] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:46.898] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:46.899] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:46.899] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:47.905] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:47.906] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:47.906] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:48.898] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:48.899] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:48.899] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:49.898] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:49.899] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:49.899] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:50.900] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:50.901] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:50.901] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:51.898] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:51.899] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:51.899] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:52.904] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:52.905] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:52.905] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:53.905] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:53.906] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:53.906] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:54.898] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:54.899] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:54.899] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:55.901] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:55.902] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:55.902] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:56.899] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:56.900] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:56.900] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:57.896] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:57.897] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:57.897] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:58.904] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:58.905] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:58.905] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:45:59.907] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:45:59.908] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:45:59.908] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:00.899] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:00.900] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:00.900] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:01.907] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:01.908] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:01.908] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:02.906] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:02.907] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:02.907] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:03.908] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:03.909] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:03.909] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:04.908] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:04.909] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:04.909] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:05.907] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:05.908] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:05.908] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:06.874] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:06.875] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:06.875] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:07.897] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:07.897] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:07.897] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:08.886] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:08.887] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:08.887] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:09.908] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:09.909] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:09.909] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:10.897] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:10.898] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:10.898] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:11.909] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:11.910] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:11.910] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:12.908] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:12.909] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:12.909] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:13.834] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:13.835] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:13.836] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:14.886] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:14.887] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:14.887] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:15.859] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:15.860] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:15.860] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:16.899] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:16.900] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:16.900] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:17.906] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:17.907] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:17.907] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:18.908] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:18.909] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:18.909] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:19.904] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:19.905] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:19.905] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:20.885] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:20.885] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:20.886] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:21.909] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:21.910] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:21.910] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:22.846] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:22.846] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:22.847] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:23.904] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:23.905] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:23.905] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:24.835] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:24.836] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:24.836] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:25.835] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:25.835] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:25.835] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:26.884] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:26.884] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:26.884] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:27.900] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:27.900] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:27.900] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:28.908] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:28.908] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:28.909] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:29.899] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:29.899] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:29.900] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:30.898] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:30.899] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:30.899] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:31.872] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:31.872] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:31.872] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:32.885] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:32.886] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:32.886] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:33.902] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:33.902] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:33.902] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:34.878] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:34.879] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:34.879] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:35.902] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:35.903] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:35.903] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:36.879] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:36.880] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:36.880] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:37.893] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:37.893] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:37.893] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:38.887] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:38.888] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:38.888] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:39.898] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:39.899] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:39.899] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:40.872] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:40.872] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:40.873] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:41.886] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:41.886] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:41.887] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:42.879] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:42.879] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:42.879] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:43.884] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:43.885] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:43.885] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:44.885] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:44.886] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:44.886] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:45.901] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:45.901] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:45.901] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:46.898] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:46.898] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:46.898] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:47.909] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:47.910] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:47.910] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:48.909] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:48.910] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:48.910] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:49.836] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:49.836] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:49.836] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:50.836] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:50.836] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:50.836] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:51.835] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:51.836] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:51.836] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:52.884] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:52.888] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:52.888] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:53.836] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:53.836] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:53.836] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:54.841] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:54.842] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:54.842] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:55.836] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:55.836] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:55.836] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:56.836] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:56.836] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:56.836] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:57.847] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:57.847] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:57.847] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:58.858] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:58.858] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:58.858] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:46:59.858] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:46:59.859] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:46:59.859] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:00.848] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:00.849] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:00.849] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:01.849] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:01.850] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:01.850] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:02.904] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:02.904] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:02.904] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:03.837] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:03.838] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:03.838] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:04.836] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:04.836] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:04.836] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:05.836] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:05.836] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:05.836] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:06.852] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:06.852] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:06.852] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:07.864] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:07.864] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:07.864] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:08.836] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:08.836] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:08.836] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:09.865] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:09.866] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:09.866] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:10.836] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:10.837] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:10.837] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:11.837] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:11.838] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:11.838] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:12.871] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:12.871] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:12.872] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:13.863] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:13.864] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:13.864] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:14.873] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:14.873] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:14.873] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:15.862] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:15.863] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:15.863] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:16.887] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:16.888] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:16.888] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:17.853] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:17.854] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:17.854] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:18.841] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:18.842] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:18.842] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:19.836] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:19.837] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:19.837] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:47:20.910] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:47:20.910] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:47:20.911] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:25.278] [info] [console_user_server] version 12.1.0
+[2019-05-01 17:48:25.351] [info] [console_user_server] Check version...
+[2019-05-01 17:48:25.355] [info] [console_user_server] karabiner_grabber_alerts.json is updated.
+[2019-05-01 17:48:26.316] [info] [console_user_server] Load karabiner.json...
+[2019-05-01 17:48:26.316] [info] [console_user_server] core_configuration is updated.
+[2019-05-01 17:48:26.316] [info] [console_user_server] Check for updates...
+[2019-05-01 17:48:27.387] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:27.517] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:27.517] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:28.403] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:28.404] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:28.404] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:29.383] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:29.385] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:29.386] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:30.356] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:30.357] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:30.357] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:31.392] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:31.395] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:31.396] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:32.394] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:32.395] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:32.395] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:33.388] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:33.388] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:33.388] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:34.379] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:34.380] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:34.380] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:35.417] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:35.417] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:35.417] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:36.353] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:36.353] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:36.353] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:37.351] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:37.352] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:37.352] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:38.318] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:38.318] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:38.318] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:39.356] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:39.356] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:39.356] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:40.348] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:40.348] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:40.348] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:41.367] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:41.367] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:41.367] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:42.368] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:42.369] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:42.369] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:43.346] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:43.347] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:43.347] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:44.349] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:44.349] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:44.349] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:45.386] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:45.386] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:45.386] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:46.348] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:46.349] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:46.349] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:47.346] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:47.347] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:47.347] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:48.377] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:48.377] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:48.377] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:49.359] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:49.359] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:49.359] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:50.378] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:50.379] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:50.379] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:51.371] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:51.371] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:51.371] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:52.387] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:52.388] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:52.388] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:53.382] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:53.382] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:53.382] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:54.377] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:54.377] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:54.377] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:55.371] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:55.371] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:55.371] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:56.358] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:56.358] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:56.358] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:57.359] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:57.359] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:57.359] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:58.368] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:58.369] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:58.369] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:48:59.347] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:48:59.347] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:48:59.347] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:08.027] [info] [console_user_server] version 12.1.0
+[2019-05-01 17:52:08.028] [info] [console_user_server] Check version...
+[2019-05-01 17:52:08.035] [info] [console_user_server] karabiner_grabber_alerts.json is updated.
+[2019-05-01 17:52:08.560] [info] [console_user_server] Load karabiner.json...
+[2019-05-01 17:52:08.561] [info] [console_user_server] core_configuration is updated.
+[2019-05-01 17:52:08.561] [info] [console_user_server] Check for updates...
+[2019-05-01 17:52:09.660] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:09.837] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:09.837] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:10.705] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:10.707] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:10.707] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:11.633] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:11.641] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:11.641] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:12.576] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:12.579] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:12.585] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:13.635] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:13.636] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:13.636] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:14.632] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:14.633] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:14.634] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:15.596] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:15.597] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:15.597] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:16.593] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:16.593] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:16.593] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:17.597] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:17.598] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:17.598] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:18.642] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:18.643] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:18.643] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:19.593] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:19.594] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:19.594] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:20.570] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:20.570] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:20.571] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:21.595] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:21.596] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:21.596] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:22.604] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:22.623] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:22.624] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:23.625] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:23.626] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:23.627] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:24.630] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:24.631] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:24.631] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:25.608] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:25.608] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:25.608] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:26.329] [info] [console_user_server] connection_manager::grabber_is_launched_callback
+[2019-05-01 17:52:26.605] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:26.607] [info] [console_user_server] input_source_manager terminate
+[2019-05-01 17:52:26.609] [warning] [console_user_server] bind: No such file or directory
+[2019-05-01 17:52:27.632] [info] [console_user_server] input_source_manager initialize
+[2019-05-01 17:52:27.637] [info] [console_user_server] receiver is initialized
+[2019-05-01 17:52:27.637] [info] [console_user_server] Check version...
+[2019-05-01 17:52:27.638] [info] [console_user_server] grabber_client_ is connected
+[2019-05-01 17:52:27.683] [info] [console_user_server] Load karabiner.json...
+[2019-05-01 17:52:27.683] [info] [console_user_server] core_configuration is updated.
+[2019-05-01 17:52:28.178] [info] [console_user_server] frontmost_application_observer initialize
+[2019-05-01 17:52:28.183] [info] [console_user_server] input_source_observer initialize
+[2019-05-01 17:52:31.213] [info] [console_user_server] system_preferences is updated.
+[2019-05-01 17:52:46.186] [info] [console_user_server] system_preferences is updated.

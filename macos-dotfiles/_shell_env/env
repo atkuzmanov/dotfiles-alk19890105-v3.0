@@ -1,0 +1,254 @@
+################################
+
+### Set editor for everything. Prefer vim usually, as some strange distros like ubuntu have defaults like ed.
+export EDITOR=vim
+# export EDITOR='subl -w'
+
+### zsh stuff
+# export PS1="%n:%d$ "
+
+
+### bash stuff
+### ~/.bash_profile prompt
+## http://osxdaily.com/2006/12/11/how-to-customize-your-terminal-prompt/
+# export PS1="\D{%y.%m.%d} \t \u@\W$ "
+# export PS1="\D{%y.%m.%d} \t 🐺🙂👍@\W$ "
+# export PS1="\D{%y.%m.%d} \t 🐯@\W$ "
+# export PS1="\u:\W$ "
+
+
+### Proxies
+# export http_proxy=[HTTP-PROXY-URI]:[PORT-NUMBER]
+# export HTTP_PROXY=[HTTP-PROXY-URI]:[PORT-NUMBER]
+# export https_proxy=[HTTP-PROXY-URI]:[PORT-NUMBER]
+# export HTTPS_PROXY=[HTTP-PROXY-URI]:[PORT-NUMBER]
+# export NO_PROXY="localhost|[URL]|*[URL]|[IP-ADDRESS]|127.0.0.1|0.0.0.0"
+# export no_proxy="localhost|[URL]|*[URL]|[IP-ADDRESS]|127.0.0.1|0.0.0.0"
+# export ALL_PROXY=[HTTP-PROXY-URI]:[PORT-NUMBER]
+# export all_proxy=[HTTP-PROXY-URI]:[PORT-NUMBER]
+
+
+### Proxies For NodeJS NPM
+# export npm_config_proxy=[PROXY-URI]:[PORT-NUMBER]
+# export npm_config_https_proxy=[PROXY-URI]:[PORT-NUMBER]
+
+
+### GENERAL PATHS
+export SERVER_ENV=dev
+
+
+### brew ### homebrew
+### brew cask ### homebrew cask
+# export HOMEBREW_NO_GITHUB_API=1
+# export HOMEBREW_CASK_OPTS=--caskroom=/opt/homebrew-cask/Caskroom
+export HOMEBREW_NO_ANALYTICS=1
+export HOMEBREW_GITHUB_API_TOKEN="ffbe803b48b2da44af047864e4f0789a55c96a77"
+
+
+### openssl
+## export OPENSSL_HOME=/usr/local/Cellar/openssl/1.0.2k
+export OPENSSL_HOME=/usr/local/opt/openssl
+
+
+### curl
+export CURL_HOME=/usr/local/opt/curl/bin
+
+
+### Github
+# export GIT_TEMPLATE_DIR=/Users/user/.git_template
+
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home
+# export JAVA_HOME=/usr/bin/java
+
+### Java switch versions 3
+## https://stackoverflow.com/questions/26252591/mac-os-x-and-multiple-java-versions
+# export JAVA_7_HOME=$(/usr/libexec/java_home -v1.7)
+# export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
+# export JAVA_9_HOME=$(/usr/libexec/java_home -v9)
+# 
+# alias java7='export JAVA_HOME=$JAVA_7_HOME'
+# alias java8='export JAVA_HOME=$JAVA_8_HOME'
+# alias java9='export JAVA_HOME=$JAVA_9_HOME'
+# 
+# #default java8
+# export JAVA_HOME=$JAVA_8_HOME
+
+export JAVA_OPTS_ENCODING="$JAVA_OPTS -Dfile.encoding=UTF-8"
+
+### JAVA_OPTS
+# export JAVA_OPTS="-XX:PermSize=256M -XX:MaxPermSize=384M -Xms256M -Xmx12[PORT-NUMBER]M -XX:+CMSClassUnloadingEnabled"
+
+### JAVA_OPTS_DEBUG
+## Note: If you enable these you can run only one instance of SBT, might be the same case with other build tools.
+## export JAVA_OPTS_DEBUG="-Xdebug -Xrunjdwp:transport=dt_socket,address=5005,server=y,suspend=n"
+## export JAVA_OPTS_DEBUG="-Djavax.net.debug=all"
+
+### EXTRA_JAVA_OPTS
+# export EXTRA_JAVA_OPTS="$JAVA_OPTS -Djavax.net.ssl.trustStore=/Users/[USER]/[SOME-PATH]/[TRUSTSTORE]
+# -Djavax.net.ssl.trustStorePassword=[PASSWORD]
+# -Djavax.net.ssl.keyStore=/Users/[USER]/[SOME-PATH]/[CERTIFICATE.P12] 
+# -Djavax.net.ssl.keyStorePassword=[PASSWORD]
+# -Djavax.net.ssl.keyStoreType=PKCS12
+# -Dhttp.proxyHost=[PROXY-URI]
+# -Dhttp.proxyPort=[PORT-NUMBER]
+# -Dhttps.proxyHost=[PROXY-URI]
+# -Dhttps.proxyPort=[PORT-NUMBER]
+# -Dhttp.nonProxyHosts=localhost|[URL]|*[URL]|[IP-ADDRESS]|127.0.0.1|0.0.0.0
+# -Dhttps.nonProxyHosts=localhost|[URL]|*[URL]|[IP-ADDRESS]|127.0.0.1|0.0.0.0
+# -Dfile.encoding=UTF-8"
+
+### Java switch versions 1
+## http://www.jayway.com/2014/01/15/how-to-switch-jdk-version-on-mac-os-x-maverick/
+## Example use: setjdk 1.7 - selects the latest installed JDK version of the 1.7 branch
+## Example use: setjdk 1.7.0_51 - select a specific version
+## Run /usr/libexec/java_home -h to get more details on how to choose versions
+# function setjdk() {
+#   if [ $# -ne 0 ]; then
+#    removeFromPath '/System/Library/Frameworks/JavaVM.framework/Home/bin'
+#    if [ -n "${JAVA_HOME+x}" ]; then
+#     removeFromPath $JAVA_HOME
+#    fi
+#    export JAVA_HOME=`/usr/libexec/java_home -v $@`
+#    export PATH=$JAVA_HOME/bin:$PATH
+#   fi
+#  }
+#  function removeFromPath() {
+#   export PATH=$(echo $PATH | sed -E -e "s;:$1;;" -e "s;$1:?;;")
+#  }
+
+### Java switch versions 2
+## https://stackoverflow.com/questions/26252591/mac-os-x-and-multiple-java-versions
+## https://github.com/AdoptOpenJDK/homebrew-openjdk
+jdk() {
+    version=$1
+    export JAVA_HOME=$(/usr/libexec/java_home -v"$version");
+    java -version
+ }
+export JAVA_HOME=$(/usr/libexec/java_home -v11); # Your default version
+
+### Maven
+## Maven 2
+## export M2_HOME=/Users/[USER]/[SOME-PATH]/Installed-software-wmac/apache-maven-2.2.1
+# export M2_HOME=/usr/local/Cellar/maven2/2.2.1/libexec
+# export M2=$M2_HOME/bin
+# export MAVEN_OPTS=$JAVA_OPTS
+## Maven 3
+# export M3_HOME="/usr/local/opt/maven@3.2/3.2.5"
+# export M3_HOME="/usr/local/opt/maven@3.2/3.2.5"
+# export M3_HOME=/usr/local/Cellar/maven@3.2/3.2.5/libexec
+# export M3_HOME=/usr/local/Cellar/maven\@3.2/3.2.5/libexec
+# export M3_HOME=/usr/local/Cellar/maven\\@3.2/3.2.5/libexec
+# export M3_HOME="/usr/local/Cellar/maven@3.2/3.2.5/libexec"
+export M3_HOME="/usr/local/Cellar/maven/3.3.9/libexec"
+export M3=$M3_HOME/bin
+
+
+### Python
+## Python 2.7
+# export PYTHON_HOME="$MY_HOME/Library/Python/2.7/bin"
+## Python 3.7.1
+# export PYTHON_HOME="/usr/local/Cellar/python/3.7.3/bin"
+# export PYTHON_HOME="/usr/local/Cellar/python/3.7.3/bin/python3"
+export PYTHON_HOME="/usr/local/Cellar/python@3.8/3.8.4/bin/python3"
+alias python='python3'
+
+
+### Amazon AWS exports
+## export AWS_DEFAULT_PROFILE=adminuser
+## export AWS_PROXY_HOST=""
+## export AWS_PROXY_PORT="80" ## ???
+# export AWS_ACCESS_KEY=
+# export AWS_SECRET_KEY=
+# export AWS_ACCESS_KEY_ID=
+# export AWS_SECRET_ACCESS_KEY=
+### AWS-CLI
+# complete -C aws_completer aws
+
+
+### Scala
+## export SCALA_HOME=/usr/local/Cellar/scala/2.11.6
+## export SCALA_HOME=/usr/local/Cellar/scala210/2.10.5/libexec
+export SCALA_HOME=/usr/local/Cellar/scala/2.12.1/libexec
+
+### SBT
+export SBT_HOME=/usr/local/Cellar/sbt/0.13.13
+export SBT_OPTS=$EXTRA_JAVA_OPTS
+
+
+### MongoDB
+export MONGODB_HOME=/usr/local/Cellar/mongodb/3.4.3
+
+
+###Go Lang
+
+
+### Docker
+# export DOCKER_HOST='tcp://127.0.0.1:2375'
+
+
+### Kubernetes
+# export KUBECONFIG=''
+
+
+### Vault
+# Set the Vault cluster address.
+# export VAULT_ADDR=https://vault.example.com
+
+# Set the personal access token to use for authentication with Vault.
+# export VAULT_AUTH_GITHUB_TOKEN=$(security find-generic-password -a "${USER}" -s "Blah Vault" -w)
+
+# Prevent `vault write` commands from being stored in history.
+function vault () {
+  command vault "$@"
+  if [[ $1 == write ]]; then history -d $((HISTCMD-1)) &> /dev/null; fi
+}
+
+## Sublime Text
+# ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+# alias subl="/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"
+
+## PATH
+## ALWAYS LAST
+## Path concatenation
+## Example:
+## export PATH=$PATH:$JBOSS_HOME/bin
+## OR
+## export PATH=${PATH}:${JBOSS_HOME}/bin
+## Make sure PATH precedence is correct, for example export PATH=/usr/local/bin:$PATH is not the same asexport PATH=$PATH:/usr/local/bin
+##
+export PATH=$PATH:$MY_HOME/bin
+export PATH=/usr/local/bin:$PATH
+export PATH=/usr/bin:$PATH
+export PATH=/bin:$PATH
+export PATH=/usr/sbin:$PATH
+export PATH=/bin:$PATH
+export PATH=/sbin:$PATH
+export PATH=/opt/local/bin:$PATH
+export PATH=/opt/local/sbin:$PATH
+export PATH=$PATH:$PYTHON_HOME
+export PATH=$KUBECONFIG:$PATH
+# export PATH=$GOPATH:$PATH
+# export PATH=$GOPATH/bin:$PATH
+# export PATH=$SUBLIME_HOME:$PATH
+# export PATH=$CATALINA_HOME:$PATH
+# export PATH=$M3:$PATH
+# export PATH=$M3:$PATH
+# export PATH=$PATH:$JAVA_HOME
+# export PATH=$M3:$PATH
+export PATH=$PATH:$M3
+# export PATH=~/.local/bin:$PATH
+export PATH=/usr/local/bin:$PATH
+
+################################
+################################
+################################
+
+
+
+
+
+
+
+
+

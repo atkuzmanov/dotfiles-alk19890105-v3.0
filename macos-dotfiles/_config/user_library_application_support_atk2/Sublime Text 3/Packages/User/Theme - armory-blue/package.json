@@ -1,0 +1,25 @@
+{
+    "name": "theme-armory-blue",
+    "displayName": "ArmoryBlue",
+    "description": "ArmoryBlue for VS Code",
+    "version": "2.0.10",
+    "publisher": "jackreis",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "scripts": {
+        "build" : "tfx extension create --manifest-globs package.json"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "ArmoryBlue",
+                "uiTheme": "vs-dark",
+                "path": "./armory-blue.tmTheme"
+            }
+        ]
+    }
+}

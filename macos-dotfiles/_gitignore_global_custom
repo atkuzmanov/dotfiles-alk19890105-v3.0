@@ -1,0 +1,180 @@
+## References
+################################
+## https://stackoverflow.com/questions/7335420/global-git-ignore/22885996#22885996
+## http://egorsmirnov.me/2015/05/04/global-gitignore-file.html
+## https://gist.github.com/octocat/9257657
+## Run the following command:
+## git config --global core.excludesfile ~/.gitignore_global_custom
+################################
+
+
+## Custom
+################################
+qBittorrent/
+_li4ni/
+_li4ni_aws_deeplens_2018/
+.~lock*
+################################
+
+
+## OS X
+################################
+.DS_Store
+################################
+
+
+## Java
+################################
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+################################
+
+
+## Maven
+################################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+################################
+
+
+## Gradle
+################################
+bin/
+build/
+.gradle
+.gradletasknamecache
+gradle-app.setting
+!gradle-wrapper.jar
+################################
+
+
+## IntelliJ
+################################
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+################################
+
+
+## Eclipse
+################################
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+################################
+
+
+## NetBeans
+################################
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+################################
+
+
+# Compiled source
+################################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+################################
+
+
+# Packages
+################################
+## it's better to unpack these files and commit the raw source
+## git has its own built in compression methods
+# *.7z
+# *.dmg
+# *.gz
+# *.iso
+# *.jar
+# *.rar
+# *.tar
+# *.zip
+################################
+
+
+# Logs and databases
+################################
+# *.log
+# *.sql
+# *.sqlite
+################################
+
+
+# OS generated files
+################################
+.DS_Store
+.DS_Store?
+# ._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+################################
+
+
+# Auto-gen by GitHub for Mac
+################################
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+################################

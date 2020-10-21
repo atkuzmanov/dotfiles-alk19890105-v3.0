@@ -1,0 +1,172 @@
+################################
+
+## oh-my-zsh and antigen settings
+## ~/.oh-my-zsh/templates/zshrc.zsh-template
+
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH=$HOME/.oh-my-zsh
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+# ZSH_THEME="agnoster"
+ZSH_THEME="bira"
+
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS="true"
+
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"
+
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
+
+# Uncomment the following line to display red dots whilst waiting for completion.
+COMPLETION_WAITING_DOTS="true"
+
+# Which plugins would you like to load?
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+#plugins=(
+#    git 
+#    autojump 
+#    ssh-agent 
+#    extract 
+#    vi-mode
+#)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+# export MANPATH="/usr/local/man:$MANPATH"
+
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
+
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
+
+###
+
+## antigen settings
+
+source /usr/local/share/antigen/antigen.zsh
+
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
+
+## Load bundles from the default repo (oh-my-zsh) (robbyrussell's oh-my-zsh).
+antigen bundle git
+antigen bundle autojump
+antigen bundle ssh-agent
+antigen bundle extract
+antigen bundle vi-mode
+antigen bundle command-not-found
+antigen bundle docker
+antigen bundle plugin-name
+    
+## Other bundles from external repos
+# Syntax highlighting bundle.
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# Fish-like auto suggestions
+antigen bundle zsh-users/zsh-autosuggestions
+
+# Extra zsh completions
+antigen bundle zsh-users/zsh-completions
+
+antigen bundle superbrothers/zsh-kubectl-prompt
+
+
+# Load the theme
+# antigen theme robbyrussell
+# antigen theme agnoster
+# antigen theme bira
+
+# Tell antigen that you're done
+antigen apply
+
+################################
+
+autoload -U colors; colors
+
+source /etc/profile
+source ~/.shell_env/aliases
+source ~/.shell_env/env
+source ~/.shell_env/path
+source ~/.shell_env/functions
+source ~/.li4ni/aliases_private
+source ~/.li4ni/env_private
+source ~/.fonts_awesome_terminal_fonts_custom/*.sh
+
+################################
+
+## Customise prompt. Comment line below to enable prompt theme.
+## https://stackoverflow.com/questions/35281630/how-do-i-change-my-ps1-on-a-macbook-for-oh-my-zsh
+## http://zsh.sourceforge.net/Doc/Release/Prompt-Expansion.html
+## http://www.nparikh.org/unix/prompt.php
+## https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/
+# PS1="... "
+# PROMPT='%F{yellow}$%F{blue}>%F{red}.%F{green}_ '
+
+## Kubernetes prompt to display on which cluster you are logged in.
+# RPROMPT='%{$fg[blue]%}($ZSH_KUBECTL_PROMPT)%{$reset_color%}'
+
+## Set custom terminal title bar.
+## https://stackoverflow.com/questions/46721797/how-to-change-the-terminal-title
+DISABLE_AUTO_TITLE="true"
+function set_terminal_title() {
+  # echo -en "\e]2;$@\a"
+  echo -n -e "\033]0;$>._\007"
+}
+set_terminal_title
+
+################################
+
+## Enable editing of command line
+autoload -U edit-command-line
+zle -N edit-command-line
+bindkey -M vicmd '^e' edit-command-line
+
+## Some emacs keybinding
+# bindkey -M viins '^e' end-of-line
+# bindkey -M viins '^a' beginning-of-line
+# bindkey -M viins '^-x^-e' edit-command-line
+# bindkey -M viins '^r' history-incremental-search-backward
+
+## http://www.johnhawthorn.com/2012/09/vi-escape-delays/
+KEYTIMEOUT=1
+
+################################
+
+## Stop 'Enter passphrase for .ssh/id_rsa:' prompt.
+## https://superuser.com/questions/1127067/macos-keeps-asking-my-ssh-passphrase-since-i-updated-to-sierra
+ssh-add -A 2>/dev/null;
+
+################################
+
+## https://dhruvasagar.com/2017/10/07/ssh-config-trick
+# cat ~/macos/_ssh_config > ~/.ssh/config 2>/dev/null
+
+################################
+################################
+################################
+
+

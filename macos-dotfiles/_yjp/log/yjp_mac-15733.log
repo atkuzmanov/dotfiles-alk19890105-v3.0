@@ -1,0 +1,126 @@
+[launcher]: All found JVMs:
+[launcher]: /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk
+[launcher]: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk
+[launcher]: /Library/Java/JavaVirtualMachines/1.6.0.jdk
+[launcher]: 
+[launcher]: '/Users/alkuzmanov/.yjp/java.txt' content: '(null)'
+[launcher]: Trying 1.8*
+[launcher]: Found: /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk
+[launcher]: [0] -Dapple.laf.useScreenMenuBar=true
+[launcher]: [1] -Duser.language=en
+[launcher]: [2] -Xmx8G
+[launcher]: [+1]: -XX:OnError=/Applications/YourKit-Java-Profiler-2017.02.app/Contents/Resources/bin/yjp.sh -on_error %p
+[launcher]: [+2]: -Djava.class.path=/Applications/YourKit-Java-Profiler-2017.02.app/Contents/Resources/lib/yjp.jar
+[launcher]: calling the main method...
+[launcher]: -----------------------------------------------------------------------
+[launcher]: 
+17.02-55 0.034: Log file: /Users/alkuzmanov/.yjp/log/yjp_mac-15733.log
+17.02-55 0.034: Command line:
+  /Applications/YourKit-Java-Profiler-2017.02.app/Contents/MacOS/yjp_mac
+17.02-55 0.034: Executable: /Applications/YourKit-Java-Profiler-2017.02.app/Contents/MacOS/yjp_mac
+17.02-55 0.034: uname:
+  sysname: Darwin
+  release: 16.4.0
+  version: Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64
+  machine: x86_64
+17.02-55 0.034: Mac OS X; 64-bit process
+17.02-55 0.034: hid: 26022AX97H484QUES133YY5XXY65Z283UX 64-bit machine
+17.02-55 0.034: Today is 20170402
+17.02-55 0.034: full_build_stamp: 2017.02.55 201703091516
+17.02-55 0.034: Agent library path: /Applications/YourKit-Java-Profiler-2017.02.app/Contents/Resources/bin/mac/libyjpagent.jnilib
+17.02-55 0.034: getTimeNsInfo: "1 1"
+17.02-55 0.034: 
+---------------------------------------------------------------------
+Product: YourKit Java Profiler 2017.02-b55 - built on 201703091511
+JDK: 1.8.0_121
+VM: Java HotSpot(TM) 64-Bit Server VM
+Vendor: Oracle Corporation
+OS: Mac OS X
+OS version: 10.12.3
+OS arch: x86_64
+Date and time: Sun Apr 02 13:07:03 BST 2017
+Properties:
+  apple.laf.useScreenMenuBar=true
+  awt.toolkit=sun.lwawt.macosx.LWCToolkit
+  file.encoding.pkg=sun.io
+  file.encoding=UTF-8
+  file.separator=/
+  ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+  gopherProxySet=false
+  http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+  java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+  java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+  java.class.path=/Applications/YourKit-Java-Profiler-2017.02.app/Contents/Resources/lib/yjp.jar
+  java.class.version=52.0
+  java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed
+  java.ext.dirs=/Users/alkuzmanov/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+  java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre
+  java.io.tmpdir=/var/folders/f6/zznwj2rs1pjfzq74vhy9zts40000gn/T/
+  java.library.path=/Users/alkuzmanov/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+  java.runtime.name=Java(TM) SE Runtime Environment
+  java.runtime.version=1.8.0_121-b13
+  java.specification.name=Java Platform API Specification
+  java.specification.vendor=Oracle Corporation
+  java.specification.version=1.8
+  java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+  java.vendor.url=http://java.oracle.com/
+  java.vendor=Oracle Corporation
+  java.version=1.8.0_121
+  java.vm.info=mixed mode
+  java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+  java.vm.specification.name=Java Virtual Machine Specification
+  java.vm.specification.vendor=Oracle Corporation
+  java.vm.specification.version=1.8
+  java.vm.vendor=Oracle Corporation
+  java.vm.version=25.121-b13
+  line.separator=
+
+  os.arch=x86_64
+  os.name=Mac OS X
+  os.version=10.12.3
+  path.separator=:
+  socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+  sun.arch.data.model=64
+  sun.awt.enableExtraMouseButtons=true
+  sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes
+  sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib
+  sun.cpu.endian=little
+  sun.cpu.isalist=
+  sun.font.fontmanager=sun.font.CFontManager
+  sun.io.unicode.encoding=UnicodeBig
+  sun.jnu.encoding=UTF-8
+  sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+  sun.os.patch.level=unknown
+  user.country=GB
+  user.dir=/
+  user.home=/Users/alkuzmanov
+  user.language=en
+  user.name=alkuzmanov
+  user.timezone=Europe/London
+Environment:
+  Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.swCfMdUfpG/Render
+  DISPLAY=/private/tmp/com.apple.launchd.meNlPLubN0/org.macosforge.xquartz:0
+  HOME=/Users/alkuzmanov
+  LOGNAME=alkuzmanov
+  PATH=/usr/bin:/bin:/usr/sbin:/sbin
+  SHELL=/bin/bash
+  SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.eX9zXuK4ep/Listeners
+  TMPDIR=/var/folders/f6/zznwj2rs1pjfzq74vhy9zts40000gn/T/
+  USER=alkuzmanov
+  XPC_FLAGS=0x0
+  XPC_SERVICE_NAME=com.yourkit.JavaProfiler.1892
+  YJP_JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home
+  __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x2
+---------------------------------------------------------------------
+
+
+17.02-55 0.034: com.yourkit.Main1: starting...
+17.02-55 0.034: com.yourkit.Main1: number of args: 0
+17.02-55 0.034: com.yourkit.Main1: offlineOptionSpecified = false
+17.02-55 0.063: com.yourkit.j.nu: [update installer]: no update scheduled - nothing to do
+17.02-55 0.191: com.yourkit.Main1: oomeDumperStatus: 1
+17.02-55 2.111: com.yourkit.j.n.b.cq: ParallelExecutor: pool size 4
+17.02-55 2.166: shmem 4234148E: OK
+17.02-55 2.168: shmem 42341490: OK
+17.02-55 2.168: shmem 42341493: OK
+17.02-55 2.239: com.yourkit.j.ni: marker: created /tmp/.yjp_ui_20161012_51650

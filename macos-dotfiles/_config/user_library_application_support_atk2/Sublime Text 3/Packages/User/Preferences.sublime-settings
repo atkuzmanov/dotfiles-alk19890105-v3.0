@@ -1,0 +1,12 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"font_size": 16.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"open_files_in_new_window": false,
+	"spell_check": true,
+	"theme": "Adaptive.sublime-theme"
+}
