@@ -230,6 +230,9 @@ symlink_dirs() {
     ## vscode
     # test -h "$HOME"/Library/Application\ Support/Code/User/settings.json || ln -sf "$DOTFILES_DIR"/_config/user_library_application_support_custom/Code/User/settings.json "$HOME"/Library/Application\ Support/Code/User/settings.json
     # test -h "$HOME"/Library/Application\ Support/Code/User/sync || ln -sf "$DOTFILES_DIR"/_config/user_library_application_support_custom/Code/User/sync "$HOME"/Library/Application\ Support/Code/User/sync
+
+    ## Change references in this file
+    # "$DOTFILES_DIR"/_antigen/init.zsh
 }
 # symlink_dirs
 
