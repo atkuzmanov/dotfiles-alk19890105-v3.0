@@ -210,7 +210,7 @@ symlink_dirs() {
     test -h "$HOME"/bin || ln -sf $PWD/bin "$HOME"/bin
     # test -h "$HOME"/.oh-my-zsh || ln -sf "$DOTFILES_DIR"/_antigen/bundles/robbyrussell/oh-my-zsh ~/.oh-my-zsh    
     # test -h "$HOME"/Library/Application\ Support/Sublime\ Text\ 3/Packages/User || ln -sf "$DOTFILES_DIR"/_config/user_library_application_support_atk2/Sublime\ Text\ 3/Packages/User "$HOME"/Library/Application\ Support/Sublime\ Text\ 3/Packages
-    # test -h "$HOME"/Library/Application\ Support/GIMP || ln -sf "$DOTFILES_DIR"/_config/user_library_application_support_atk2/GIMP "$HOME"/Library/Application\ Support
+    # test -h "$HOME"/Library/Application\ Support/GIMP || ln -sf "$DOTFILES_DIR"/_config/user_library_application_support_atk2/GIMP "$HOME"/Library/Application\ Support/GIMP
     ## Do the one below for iTerm2 manually from iTerm2's settings
     ## test -h "$HOME"/Library/Application\ Support/iTerm2/com.googlecode.iterm2.plist || ln -sf "$DOTFILES_DIR"/_config/custom_atk2/iterm2_atk2/com.googlecode.iterm2.plist
     ## test -h "$HOME"/.macos || ln -sf "$DOTFILES_DIR"/macos-dotfiles/.macos ~/.macos
