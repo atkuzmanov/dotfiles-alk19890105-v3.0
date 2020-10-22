@@ -142,6 +142,7 @@ export JAVA_HOME=$(/usr/libexec/java_home -v11); # Your default version
 # export M3_HOME="/usr/local/Cellar/maven@3.2/3.2.5/libexec"
 export M3_HOME="/usr/local/Cellar/maven/3.3.9/libexec"
 export M3=$M3_HOME/bin
+export MAVEN_OPTS=-Xmx1024m
 
 
 ### Python
