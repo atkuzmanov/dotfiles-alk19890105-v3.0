@@ -30369,3 +30369,99 @@ antigen
 antigen-apply
 antigen
 /Users/alkuzmanov/.zshrc
+[WRN][1603961043.2885360718] /usr/local/share/antigen/antigen.zsh:266
+[WRN][1603961043.2885360718] -antigen-interactive-mode: toplevel:filecode:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1603961043.2897989750] /usr/local/share/antigen/antigen.zsh:478
+[TRA][1603961043.2897989750] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1603961043.2897989750] TRACE
+-antigen-env-setup
+/usr/local/share/antigen/antigen.zsh
+/Users/alkuzmanov/.zshrc
+[TRA][1603961043.3289830685] /usr/local/share/antigen/antigen.zsh:811
+[TRA][1603961043.3289830685] Called antigen-bundle with --loc=lib BUNDLE
+[TRA][1603961043.3289830685] TRACE
+antigen-bundle
+-antigen-use-oh-my-zsh
+antigen-use
+antigen
+/Users/alkuzmanov/.zshrc
+[TRA][1603961043.3298339844] /usr/local/share/antigen/antigen.zsh:811
+[TRA][1603961043.3298339844] Called antigen-bundle with git BUNDLE
+[TRA][1603961043.3298339844] TRACE
+antigen-bundle
+antigen
+/Users/alkuzmanov/.zshrc
+[TRA][1603961043.3307969570] /usr/local/share/antigen/antigen.zsh:811
+[TRA][1603961043.3307969570] Called antigen-bundle with autojump BUNDLE
+[TRA][1603961043.3307969570] TRACE
+antigen-bundle
+antigen
+/Users/alkuzmanov/.zshrc
+[TRA][1603961043.3314549923] /usr/local/share/antigen/antigen.zsh:811
+[TRA][1603961043.3314549923] Called antigen-bundle with ssh-agent BUNDLE
+[TRA][1603961043.3314549923] TRACE
+antigen-bundle
+antigen
+/Users/alkuzmanov/.zshrc
+[TRA][1603961043.3320600986] /usr/local/share/antigen/antigen.zsh:811
+[TRA][1603961043.3320600986] Called antigen-bundle with extract BUNDLE
+[TRA][1603961043.3320600986] TRACE
+antigen-bundle
+antigen
+/Users/alkuzmanov/.zshrc
+[TRA][1603961043.3326790333] /usr/local/share/antigen/antigen.zsh:811
+[TRA][1603961043.3326790333] Called antigen-bundle with vi-mode BUNDLE
+[TRA][1603961043.3326790333] TRACE
+antigen-bundle
+antigen
+/Users/alkuzmanov/.zshrc
+[TRA][1603961043.3332760334] /usr/local/share/antigen/antigen.zsh:811
+[TRA][1603961043.3332760334] Called antigen-bundle with command-not-found BUNDLE
+[TRA][1603961043.3332760334] TRACE
+antigen-bundle
+antigen
+/Users/alkuzmanov/.zshrc
+[TRA][1603961043.3338570595] /usr/local/share/antigen/antigen.zsh:811
+[TRA][1603961043.3338570595] Called antigen-bundle with docker BUNDLE
+[TRA][1603961043.3338570595] TRACE
+antigen-bundle
+antigen
+/Users/alkuzmanov/.zshrc
+[TRA][1603961043.3344309330] /usr/local/share/antigen/antigen.zsh:811
+[TRA][1603961043.3344309330] Called antigen-bundle with plugin-name BUNDLE
+[TRA][1603961043.3344309330] TRACE
+antigen-bundle
+antigen
+/Users/alkuzmanov/.zshrc
+[TRA][1603961043.3350028992] /usr/local/share/antigen/antigen.zsh:811
+[TRA][1603961043.3350028992] Called antigen-bundle with zsh-users/zsh-syntax-highlighting BUNDLE
+[TRA][1603961043.3350028992] TRACE
+antigen-bundle
+antigen
+/Users/alkuzmanov/.zshrc
+[TRA][1603961043.3355810642] /usr/local/share/antigen/antigen.zsh:811
+[TRA][1603961043.3355810642] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1603961043.3355810642] TRACE
+antigen-bundle
+antigen
+/Users/alkuzmanov/.zshrc
+[TRA][1603961043.3361589909] /usr/local/share/antigen/antigen.zsh:811
+[TRA][1603961043.3361589909] Called antigen-bundle with zsh-users/zsh-completions BUNDLE
+[TRA][1603961043.3361589909] TRACE
+antigen-bundle
+antigen
+/Users/alkuzmanov/.zshrc
+[TRA][1603961043.3367269039] /usr/local/share/antigen/antigen.zsh:811
+[TRA][1603961043.3367269039] Called antigen-bundle with superbrothers/zsh-kubectl-prompt BUNDLE
+[TRA][1603961043.3367269039] TRACE
+antigen-bundle
+antigen
+/Users/alkuzmanov/.zshrc
+[LOG][1603961043.3373060226] /usr/local/share/antigen/antigen.zsh:788
+[LOG][1603961043.3373060226] Called antigen-apply
+[TRA][1603961043.3374490738] /usr/local/share/antigen/antigen.zsh:792
+[TRA][1603961043.3374490738] Gonna create compdump file @ apply COMPDUMP
+[TRA][1603961043.3374490738] TRACE
+antigen-apply
+antigen
+/Users/alkuzmanov/.zshrc
