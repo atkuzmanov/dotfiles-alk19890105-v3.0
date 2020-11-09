@@ -16,7 +16,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///Users/alkuzmanov/Downloads/GeneSys_Logo_v1.0.png" added="2020-11-09T20:11:27Z" modified="2020-11-09T20:17:25Z" visited="2020-11-09T20:11:27Z">
+  <bookmark href="file:///Users/alkuzmanov/Downloads/GeneSys_Logo_v1.0.png" added="2020-11-09T20:11:27Z" modified="2020-11-09T21:15:21Z" visited="2020-11-09T20:11:27Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -24,12 +24,12 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.8 %u&apos;" modified="2020-11-09T20:17:25Z" count="5"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.8 %u&apos;" modified="2020-11-09T21:15:21Z" count="9"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///Users/alkuzmanov/Downloads/genesys-repository-open-graph-template.png" added="2020-11-09T20:18:41Z" modified="2020-11-09T20:18:52Z" visited="2020-11-09T20:18:41Z">
+  <bookmark href="file:///Users/alkuzmanov/Downloads/genesys-repository-open-graph-template.png" added="2020-11-09T20:18:41Z" modified="2020-11-09T21:13:29Z" visited="2020-11-09T20:18:41Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -37,7 +37,98 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.8 %u&apos;" modified="2020-11-09T20:18:52Z" count="2"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.8 %u&apos;" modified="2020-11-09T21:13:29Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///Users/alkuzmanov/Downloads/GeneSys_Logo_v1.0%20Big%20Transparent.png" added="2020-11-09T21:18:34Z" modified="2020-11-09T21:18:55Z" visited="2020-11-09T21:18:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.8 %u&apos;" modified="2020-11-09T21:18:55Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///Users/alkuzmanov/Downloads/GeneSys_Logo_v1.0%20Big%20Dark.png" added="2020-11-09T21:20:05Z" modified="2020-11-09T21:20:23Z" visited="2020-11-09T21:20:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.8 %u&apos;" modified="2020-11-09T21:20:23Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///Users/alkuzmanov/Downloads/GeneSys_Logo_v1.0%20Big%20Blue.png" added="2020-11-09T21:20:51Z" modified="2020-11-09T21:20:53Z" visited="2020-11-09T21:20:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.8 %u&apos;" modified="2020-11-09T21:20:53Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///Users/alkuzmanov/Desktop/GeneSys_Logo_v1.1.png" added="2020-11-09T22:36:04Z" modified="2020-11-09T22:36:07Z" visited="2020-11-09T22:36:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.8 %u&apos;" modified="2020-11-09T22:36:07Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///Users/alkuzmanov/Desktop/GeneSys_Logo_v1.1%20Big%20Dark.png" added="2020-11-09T22:37:23Z" modified="2020-11-09T22:37:26Z" visited="2020-11-09T22:37:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.8 %u&apos;" modified="2020-11-09T22:37:26Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///Users/alkuzmanov/Desktop/GeneSys_Logo_v1.1%20Big%20Blue.png" added="2020-11-09T22:37:50Z" modified="2020-11-09T22:37:53Z" visited="2020-11-09T22:37:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.8 %u&apos;" modified="2020-11-09T22:37:53Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///Users/alkuzmanov/Desktop/GeneSys_Logo_v1.1%20Big%20Transparent.png" added="2020-11-09T22:38:08Z" modified="2020-11-09T22:38:10Z" visited="2020-11-09T22:38:10.983925Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.8 %u&apos;" modified="2020-11-09T22:38:10Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
