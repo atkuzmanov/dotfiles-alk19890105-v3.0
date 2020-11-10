@@ -7,7 +7,6 @@ timestamp() {
 export TIMESTAMP_VAL=$(timestamp)
 
 ################################
-
 ### Aliases general
 
 alias lsla="ls -la"
@@ -24,14 +23,14 @@ alias readlink=greadlink
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 ################################
-
+### Show/Hide Macos files and folders
 ## https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks	
+
 alias showHiddenAndDotFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 
 alias hideHiddenAndDotFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
 ################################
-
 ### Aliases GitHub
 alias gitst="git status"
 alias gs="git status"
@@ -55,7 +54,18 @@ alias gitbpretty="git log --all --graph --pretty=format:'%Cred%h%Creset -%C(yell
 alias gitlol="git log --oneline"
 
 ################################
+### Docker aliases
 
+alias docki="docker images"
+alias dockrmi="docker rmi"
+alias dockrmif="docker rmi --force"
+alias dockps="docker ps"
+alias dockrm="docker rm"
+alias dockrmf="docker rm --force"
+alias dockb="docker build"
+alias dockr="docker run"
+
+################################
 ### Kubernetes aliases
 ## alias kubernetes login script
 alias kubeclog="source cluster-login.sh"
@@ -214,7 +224,6 @@ function kcres() {
 }
 
 ################################
-
 ### Helm shortcuts helm aliases
 alias hd='helm list --deployed | grep -v "NAME" | awk '\''{print $1}'\'' | sort | uniq -c  | awk '\''{print $1,$2}'\'' | grep -v  "^1 "'
 
