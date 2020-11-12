@@ -37,14 +37,6 @@ export EDITOR=vim
 export SERVER_ENV=dev
 
 
-### brew ### homebrew
-### brew cask ### homebrew cask
-# export HOMEBREW_NO_GITHUB_API=1
-# export HOMEBREW_CASK_OPTS=--caskroom=/opt/homebrew-cask/Caskroom
-export HOMEBREW_NO_ANALYTICS=1
-export HOMEBREW_GITHUB_API_TOKEN="ffbe803b48b2da44af047864e4f0789a55c96a77"
-
-
 ### openssl
 ## export OPENSSL_HOME=/usr/local/Cellar/openssl/1.0.2k
 export OPENSSL_HOME=/usr/local/opt/openssl
@@ -59,6 +51,7 @@ export CURL_HOME=/usr/local/opt/curl/bin
 
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home
+# export JAVA_HOME=/usr/local/Cellar/openjdk@11/11.0.8/libexec/openjdk.jdk/Contents/Home
 # export JAVA_HOME=/usr/bin/java
 
 ### Java switch versions 3
@@ -127,6 +120,7 @@ jdk() {
  }
 export JAVA_HOME=$(/usr/libexec/java_home -v11); # Your default version
 
+
 ### Maven
 ## Maven 2
 ## export M2_HOME=/Users/[USER]/[SOME-PATH]/Installed-software-wmac/apache-maven-2.2.1
@@ -135,11 +129,7 @@ export JAVA_HOME=$(/usr/libexec/java_home -v11); # Your default version
 # export MAVEN_OPTS=$JAVA_OPTS
 ## Maven 3
 # export M3_HOME="/usr/local/opt/maven@3.2/3.2.5"
-# export M3_HOME="/usr/local/opt/maven@3.2/3.2.5"
 # export M3_HOME=/usr/local/Cellar/maven@3.2/3.2.5/libexec
-# export M3_HOME=/usr/local/Cellar/maven\@3.2/3.2.5/libexec
-# export M3_HOME=/usr/local/Cellar/maven\\@3.2/3.2.5/libexec
-# export M3_HOME="/usr/local/Cellar/maven@3.2/3.2.5/libexec"
 # export M3_HOME="/usr/local/Cellar/maven/3.3.9/libexec"
 export M3_HOME="/usr/local/Cellar/maven@3.5/3.5.4_1/libexec"
 export M3=$M3_HOME/bin
@@ -150,8 +140,6 @@ export MAVEN_OPTS=-Xmx1024m
 ## Python 2.7
 # export PYTHON_HOME="$MY_HOME/Library/Python/2.7/bin"
 ## Python 3.7.1
-# export PYTHON_HOME="/usr/local/Cellar/python/3.7.3/bin"
-# export PYTHON_HOME="/usr/local/Cellar/python/3.7.3/bin/python3"
 export PYTHON_HOME="/usr/local/Cellar/python@3.8/3.8.4/bin/python3"
 alias python='python3'
 
@@ -169,8 +157,6 @@ alias python='python3'
 
 
 ### Scala
-## export SCALA_HOME=/usr/local/Cellar/scala/2.11.6
-## export SCALA_HOME=/usr/local/Cellar/scala210/2.10.5/libexec
 export SCALA_HOME=/usr/local/Cellar/scala/2.12.1/libexec
 
 ### SBT
@@ -183,6 +169,8 @@ export MONGODB_HOME=/usr/local/Cellar/mongodb/3.4.3
 
 
 ###Go Lang
+export GOPATH=$HOME/go
+export GOROOT=/usr/local/opt/go/libexec
 
 
 ### Docker
@@ -228,29 +216,15 @@ export PATH=/bin:$PATH
 export PATH=/sbin:$PATH
 export PATH=/opt/local/bin:$PATH
 export PATH=/opt/local/sbin:$PATH
+export PATH=$PATH:$JAVA_HOME
 export PATH=$PATH:$PYTHON_HOME
 export PATH=$KUBECONFIG:$PATH
-# export PATH=$GOPATH:$PATH
-# export PATH=$GOPATH/bin:$PATH
-# export PATH=$SUBLIME_HOME:$PATH
-# export PATH=$CATALINA_HOME:$PATH
-# export PATH=$M3:$PATH
-# export PATH=$M3:$PATH
-# export PATH=$PATH:$JAVA_HOME
-# export PATH=$M3:$PATH
-# export PATH=$PATH:$M3
-# export PATH=~/.local/bin:$PATH
-export PATH=/usr/local/bin:$PATH
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
+export PATH=$M3:$PATH
+export PATH=~/.local/bin:$PATH
+# export PATH=/usr/local/bin:$PATH
 
 ################################
 ################################
 ################################
-
-
-
-
-
-
-
-
-
