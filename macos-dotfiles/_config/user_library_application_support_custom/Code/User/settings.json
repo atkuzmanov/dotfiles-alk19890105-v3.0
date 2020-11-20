@@ -6,5 +6,11 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "maven.executable.preferMavenWrapper": true,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    }
 }
