@@ -2,4 +2,4 @@
 	name = atkuzmanov
 	email = atkuzmanov@gmail.com
 [core]
-	excludesfile = /Users/alkuzmanov/.gitignore_global_custom
+	excludesfile = /Users/alkuzmanov/.gitignore
