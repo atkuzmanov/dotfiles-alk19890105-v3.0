@@ -17,9 +17,16 @@ _li4ni_aws_deeplens_2018/
 ################################
 
 
-## OS X
+## MacOS X generated files
 ################################
 .DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+# Thumbnails
+# ._* 
+ehthumbs.db
+Thumbs.db
 ################################
 
 
@@ -101,10 +108,54 @@ nb-configuration.xml
 ################################
 
 
+## VSCode
+################################
+# .vscode/*
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+################################
+
+
+## compiled output
+################################
+/dist
+/tmp
+/out-tsc
+################################
+
+
+## nodejs
+################################
+/node_modules
+################################
+
+## npm
+################################
+npm-debug.log
+################################
+
+## gulp
+################################
+tools/gulp-tasks/cldr/cldr-data/
+################################
+
+## angular 
+################################
+/e2e/*.js
+/e2e/*.map
+################################
+
+## css
+################################
+/.sass-cache
+################################
+
+
 # Compiled source
 ################################
 *.com
-*.class
 *.dll
 *.exe
 *.o
@@ -112,7 +163,7 @@ nb-configuration.xml
 ################################
 
 
-# Packages
+## Packages
 ################################
 ## it's better to unpack these files and commit the raw source
 ## git has its own built in compression methods
@@ -127,7 +178,7 @@ nb-configuration.xml
 ################################
 
 
-# Logs and databases
+## Logs and databases
 ################################
 # *.log
 # *.sql
@@ -135,21 +186,8 @@ nb-configuration.xml
 ################################
 
 
-# OS generated files
+## Auto-gen by GitHub for Mac
 ################################
-.DS_Store
-.DS_Store?
-# ._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-################################
-
-
-# Auto-gen by GitHub for Mac
-################################
-
 # General
 .DS_Store
 .AppleDouble
@@ -157,7 +195,6 @@ Thumbs.db
 
 # Icon must end with two \r
 Icon
-
 
 # Thumbnails
 ._*
