@@ -169,7 +169,8 @@ export MONGODB_HOME=/usr/local/Cellar/mongodb/3.4.3
 
 
 ###Go Lang
-export GOPATH=$HOME/go
+# export GOPATH=$HOME/go
+export GOPATH=$HOME/go:$WORKSPACE_DIR/golang-src
 export GOROOT=/usr/local/opt/go/libexec
 
 

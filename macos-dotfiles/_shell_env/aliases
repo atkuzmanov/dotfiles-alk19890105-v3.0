@@ -17,6 +17,15 @@ alias rm='rm -i'
 alias mv='mv -i'
 
 ################################
+### Go Lang aliases
+
+alias gop="cd $WORKSPACE_DIR/golang-code"
+alias gops="cd $WORKSPACE_DIR/golang-code/src"
+alias gopsgit="cd $WORKSPACE_DIR/golang-code/src/github.com"
+alias gopo="cd $HOME/go"
+alias gopos="cd $HOME/go/src"
+alias goposgit="cd $HOME/go/src/github.com"
+################################
 
 alias readlink=greadlink
 
