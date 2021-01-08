@@ -29,7 +29,19 @@ FILE_TO_DECRYPT=""
 
 copy_some_backups() {
   echo "copy a backup of /etc/hosts file..."
-  cp /etc/hosts "$DOTFILES_DIR_LI4NI_MACOS"/etc_hosts_bkps/etc_hosts-bkp-"$TIMESTAMP_VAL"
+  if [[ -e /etc/hosts ]];then
+    cp /etc/hosts "$DOTFILES_DIR_LI4NI_MACOS"/etc_hosts_bkps/etc_hosts-bkp-"$TIMESTAMP_VAL"
+  else
+    echo "/etc/hosts does not exist, skipping..."
+  fi
+  echo "copy a backup of Brewfile bundle from ~/Brewfile ..."
+  ### NOTE: run this command manually first as it takes a lot of time:
+  ### brew bundle dump --all --mas --whalebrew --describe
+  if [[ -e "$HOME"/Brewfile ]];then
+    cp "$HOME"/Brewfile "$DOTFILES_DIR"/macos-dotfiles/_homebrew_brew_cask_brewfile_bundle/Brewfile-bkp-"$TIMESTAMP_VAL"  
+  else
+    echo "Brewfile does not exist, skipping..."
+  fi
   echo "done."
 }
 

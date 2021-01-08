@@ -27,12 +27,33 @@ FILE_TO_DECRYPT=""
 
 ################################
 
+copy_some_backups() {
+  echo "copy a backup of /etc/hosts file..."
+  if [[ -e /etc/hosts ]];then
+    cp /etc/hosts "$DOTFILES_DIR_LI4NI_MACOS"/etc_hosts_bkps/etc_hosts-bkp-"$TIMESTAMP_VAL"
+  else
+    echo "/etc/hosts does not exist, skipping..."
+  fi
+  echo "copy a backup of Brewfile bundle from ~/Brewfile ..."
+  ### NOTE: run this command manually first as it takes a lot of time:
+  ### brew bundle dump --all --mas --whalebrew --describe
+  if [[ -e "$HOME"/Brewfile ]];then
+    cp "$HOME"/Brewfile "$DOTFILES_DIR"/macos-dotfiles/_homebrew_brew_cask_brewfile_bundle/Brewfile-bkp-"$TIMESTAMP_VAL"  
+  else
+    echo "Brewfile does not exist, skipping..."
+  fi
+  echo "done."
+}
+
+################################
+
 en_li4ni() {
   echo "en_li4ni..."
-  # gpgconf --kill gpg-agent
+  gpgconf --kill gpg-agent
   tar czf _li4ni_script_generated-"$TIMESTAMP_VAL".tar.gz _li4ni
   gpg -er atkuzmanov@gmail.com _li4ni_script_generated-"$TIMESTAMP_VAL".tar.gz
   rm -rf _li4ni_script_generated-"$TIMESTAMP_VAL".tar.gz
+  echo "done."
 }
 # export -f en_li4ni
 
@@ -96,6 +117,7 @@ key="$1"
 case $key in
     -e|--en_li4ni)
     shift # past argument
+    copy_some_backups
     en_li4ni
     ;;
     -d|--de_li4ni)

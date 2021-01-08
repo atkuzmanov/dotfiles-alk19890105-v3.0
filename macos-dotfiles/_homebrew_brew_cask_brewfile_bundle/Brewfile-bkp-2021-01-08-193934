@@ -1,0 +1,241 @@
+tap "homebrew/bundle"
+tap "homebrew/cask", "https://github.com/caskroom/homebrew-cask"
+tap "homebrew/cask-versions", "https://github.com/caskroom/homebrew-versions"
+tap "homebrew/core"
+tap "pivotal/tap"
+tap "teamookla/speedtest"
+cask "xquartz"
+# Plugin manager for zsh, inspired by oh-my-zsh and vundle
+brew "antigen"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
+# Companion library to apr, the Apache Portable Runtime library
+brew "apr-util"
+# Shell extension to jump to frequently used directories
+brew "autojump"
+# Bash shell debugger
+brew "bashdb"
+# Remove large files or passwords from Git history like git-filter-branch
+brew "bfg"
+# Check Java source against a coding standard
+brew "checkstyle"
+# Rootkit detector
+brew "chkrootkit"
+# Console Matrix
+brew "cmatrix"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Isolated development environments using Docker
+brew "docker-compose"
+# Charset analyzer and converter
+brew "enca"
+# Convert text to Postscript, HTML, or RTF, with syntax highlighting
+brew "enscript"
+# Distributed revision control system
+brew "git"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Web application framework for the Groovy language
+brew "grails"
+# Java-based scripting language
+brew "groovy", link: false
+# SDK for Groovy: a Java-based scripting language
+brew "groovysdk"
+# Improved top (interactive process viewer)
+brew "htop"
+# JBoss Application Server
+brew "jboss-as"
+# Manage your Java environment
+brew "jenv"
+# Java servlet engine and webserver
+brew "jetty"
+# Use Jetty without an installed distribution
+brew "jetty-runner"
+# Load testing and performance measurement application
+brew "jmeter"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
+# Build tool for Clojure
+brew "leiningen"
+# Friendly wrapper for launchctl
+brew "lunchy"
+# Java-based project management
+brew "maven"
+# Terminal-based visual file manager
+brew "midnight-commander"
+# Move, copy, append, and link multiple files
+brew "mmv"
+# Open source relational database management system
+brew "mysql"
+# Extract ISO9660 data from Nero nrg files
+brew "nrg2iso"
+# Create TCP tunnels through HTTPS proxies
+brew "proxytunnel"
+# Reattach process (e.g., tmux) to background
+brew "reattach-to-user-namespace"
+# Persistent key-value database, with built-in net interface
+brew "redis"
+# Perl-powered file rename script with many helpful built-ins
+brew "rename"
+# Standard unix software packaging tool
+brew "rpm"
+# Build tool for Scala projects
+brew "sbt"
+# JVM-based programming language
+brew "scala"
+# Run scalastyle from the command-line
+brew "scalastyle"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+# SSL tunneling program
+brew "stunnel"
+# Version control system designed to be a better CVS
+brew "subversion"
+# Powerful free data recovery utility
+brew "testdisk"
+# Terminal multiplexer
+brew "tmux"
+# CPU, RAM memory, and load monitor for use with tmux
+brew "tmux-mem-cpu-load"
+# Manage complex tmux sessions easily
+brew "tmuxinator"
+# Implementation of Java Servlet and JavaServer Pages
+brew "tomcat"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Ncurses-based klondike solitaire game
+brew "tty-solitaire"
+# Tools for working with Lightbend Reactive Platform
+brew "typesafe-activator"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
+# Internet file retriever
+brew "wget"
+# Run Windows applications without a copy of Microsoft Windows
+brew "wine"
+# Automatic workarounds for problems in Wine
+brew "winetricks"
+# UNIX shell (command interpreter)
+brew "zsh"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+# Additional completion definitions for zsh
+brew "zsh-completions"
+# Informative git prompt for zsh
+brew "zsh-git-prompt"
+# Zsh port of Fish shell's history search
+brew "zsh-history-substring-search"
+# Tips, tricks, and examples for zsh
+brew "zsh-lovers"
+# Zsh curses-based tools, e.g. multi-word history searcher
+brew "zsh-navigation-tools"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
+# Debugger for zsh
+brew "zshdb"
+brew "pivotal/tap/springboot"
+cask "adobe-reader"
+cask "android-file-transfer"
+cask "atom"
+cask "betterzip"
+cask "blender"
+cask "brave-browser"
+cask "burn"
+cask "caffeine"
+cask "ccleaner"
+cask "cheatsheet"
+cask "colloquy"
+cask "dash"
+cask "diffmerge"
+cask "docker"
+cask "dropbox"
+cask "eclipse-jee"
+cask "elmedia-player"
+cask "emacs"
+cask "firefox"
+cask "flash-player"
+cask "gdisk"
+cask "gimp"
+cask "github-desktop"
+cask "google-chrome"
+cask "google-drive"
+cask "google-earth"
+cask "google-photos-backup"
+cask "google-plus-auto-backup"
+cask "gpg-suite"
+cask "hammerspoon"
+cask "inkscape"
+cask "intellij-idea-ce"
+cask "iterm2"
+cask "java"
+cask "java-jdk-javadoc"
+cask "java6"
+cask "java7"
+cask "jd-gui"
+cask "karabiner-elements"
+cask "keepingyouawake"
+cask "keka"
+cask "keystore-explorer"
+cask "kid3"
+cask "libreoffice"
+cask "libreoffice-language-pack"
+cask "lunchy"
+cask "malwarebytes-anti-malware"
+cask "max"
+cask "mono-mdk"
+cask "mpv"
+cask "music-manager"
+cask "musicbrainz-picard"
+cask "mysqlworkbench"
+cask "opera"
+cask "osxfuse"
+cask "paintbrush"
+cask "pencil"
+cask "pinta"
+cask "postman"
+cask "prey"
+cask "qbittorrent"
+cask "rdm"
+cask "reikey"
+cask "robomongo"
+cask "sequel-pro"
+cask "signal"
+cask "silverlight"
+cask "skype"
+cask "slack"
+cask "smcfancontrol"
+cask "soundflower"
+cask "soundflowerbed"
+cask "spectacle"
+cask "springtoolsuite"
+cask "sublime-text"
+cask "teamviewer"
+cask "telegram"
+cask "thunderbird"
+cask "time-out"
+cask "vagrant"
+cask "viber"
+cask "virtualbox"
+cask "virtualbox-extension-pack"
+cask "visual-paradigm-ce"
+cask "visual-studio-code"
+cask "visualvm"
+cask "vlc"
+cask "vysor"
+cask "whatsapp"
+cask "wireshark"
+cask "xld"
+cask "xnviewmp"
+cask "xrg"
+cask "yed"
+cask "yourkit-java-profiler"
