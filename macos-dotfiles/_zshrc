@@ -124,7 +124,9 @@ source ~/.fonts_awesome_terminal_fonts_custom/*.sh
 ## http://www.nparikh.org/unix/prompt.php
 ## https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/
 # PS1="... "
+## Uncomment line below and use for anonymous prompt:
 # PROMPT='%F{yellow}$%F{blue}>%F{red}.%F{green}_ '
+# PROMPT='%F{green}$%F{blue}%n%F{yellow}@%F{red}%M%F{green}>._ '
 
 ## Kubernetes prompt to display on which cluster you are logged in.
 # RPROMPT='%{$fg[blue]%}($ZSH_KUBECTL_PROMPT)%{$reset_color%}'

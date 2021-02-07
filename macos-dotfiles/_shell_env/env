@@ -12,8 +12,8 @@ export EDITOR=vim
 ### ~/.bash_profile prompt
 ## http://osxdaily.com/2006/12/11/how-to-customize-your-terminal-prompt/
 # export PS1="\D{%y.%m.%d} \t \u@\W$ "
-# export PS1="\D{%y.%m.%d} \t 🐺🙂👍@\W$ "
-# export PS1="\D{%y.%m.%d} \t 🐯@\W$ "
+# export PS1="\D{%y.%m.%d} \t 🐺🐯🙂👍@\W$ "
+# export PS1="\u:\W$ "
 # export PS1="\u:\W$ "
 
 
@@ -139,10 +139,11 @@ export MAVEN_OPTS=-Xmx1024m
 ### Python
 ## Python 2.7
 # export PYTHON_HOME="$MY_HOME/Library/Python/2.7/bin"
-## Python 3.7.1
-export PYTHON_HOME="/usr/local/Cellar/python@3.8/3.8.4/bin/python3"
+## Python 3.x
 alias python='python3'
-
+export PYTHON_HOME="/usr/local/Cellar/python@3.8"
+export PYTHON_3="/usr/local/Cellar/python@3.8/3.8.6_1/bin/python3"
+export PYTHON_OPTS="$PYTHON_HOME/3.8.6_1/bin"
 
 ### Amazon AWS exports
 ## export AWS_DEFAULT_PROFILE=adminuser
@@ -218,7 +219,9 @@ export PATH=/sbin:$PATH
 export PATH=/opt/local/bin:$PATH
 export PATH=/opt/local/sbin:$PATH
 export PATH=$PATH:$JAVA_HOME
-export PATH=$PATH:$PYTHON_HOME
+# export PATH=$PATH:$PYTHON_OPTS
+# export PATH=$PATH:$PYTHON_HOME
+# export PATH=$PATH:$PYTHON_3
 export PATH=$KUBECONFIG:$PATH
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
