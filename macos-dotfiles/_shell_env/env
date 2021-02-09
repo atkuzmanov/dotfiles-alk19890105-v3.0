@@ -141,9 +141,16 @@ export MAVEN_OPTS=-Xmx1024m
 # export PYTHON_HOME="$MY_HOME/Library/Python/2.7/bin"
 ## Python 3.x
 alias python='python3'
-export PYTHON_HOME="/usr/local/Cellar/python@3.8"
-export PYTHON_3="/usr/local/Cellar/python@3.8/3.8.6_1/bin/python3"
-export PYTHON_OPTS="$PYTHON_HOME/3.8.6_1/bin"
+# export PYTHON_HOME="/usr/local/Cellar/python@3.8"
+# export PYTHON_3="/usr/local/Cellar/python@3.8/3.8.6_1/bin/python3"
+# export PYTHON_OPTS="$PYTHON_HOME/3.8.6_1/bin"
+# export PYTHON_3_BIN="/Users/[USER]/Library/Python/3.9/bin"
+##
+# export PYTHON_HOME="/usr/local/Cellar/python@3.9/3.9.0_1"
+# export PYTHON_BIN="/usr/local/Cellar/python@3.9/3.9.0_1/bin"
+##
+export PYTHON_ANACONDA_HOME="/usr/local/anaconda3/bin/python3.8"
+export PYTHON_ANACONDA_BIN="/usr/local/anaconda3/bin"
 
 ### Amazon AWS exports
 ## export AWS_DEFAULT_PROFILE=adminuser
@@ -219,9 +226,14 @@ export PATH=/sbin:$PATH
 export PATH=/opt/local/bin:$PATH
 export PATH=/opt/local/sbin:$PATH
 export PATH=$PATH:$JAVA_HOME
-# export PATH=$PATH:$PYTHON_OPTS
 # export PATH=$PATH:$PYTHON_HOME
-# export PATH=$PATH:$PYTHON_3
+# export PATH=$PATH:$PYTHON_BIN
+## $PATH: order not working:
+# export PATH=$PATH:$PYTHON_ANACONDA_HOME
+# export PATH=$PATH:$PYTHON_ANACONDA_BIN
+## $PATH: order working:
+export PATH=$PYTHON_ANACONDA_HOME:$PATH
+export PATH=$PYTHON_ANACONDA_BIN:$PATH
 export PATH=$KUBECONFIG:$PATH
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
