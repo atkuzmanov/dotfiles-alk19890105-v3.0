@@ -15,7 +15,7 @@ qBittorrent/
 _li4ni/
 _li4ni_aws_deeplens_2018/
 .~lock*
-_antigen/debug.log
+*_antigen/debug.log*
 ################################
 
 
