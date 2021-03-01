@@ -13,5 +13,9 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "search.useGlobalIgnoreFiles": true
+    "search.useGlobalIgnoreFiles": true,
+    "vs-kubernetes": {
+        "vscode-kubernetes.minikube-path.mac": "/Users/alkuzmanov/.vs-kubernetes/tools/minikube/darwin-amd64/minikube",
+        "vscode-kubernetes.helm-path.mac": "/Users/alkuzmanov/.vs-kubernetes/tools/helm/darwin-amd64/helm"
+    }
 }

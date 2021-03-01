@@ -116,7 +116,6 @@ _comps=(
 'animate' '_imagemagick'
 'anno' '_mh'
 'ant' '_ant'
-'antigen' '_antigen'
 'antiword' '_antiword'
 'aodh' '_openstack'
 'aoss' '_precommand'
