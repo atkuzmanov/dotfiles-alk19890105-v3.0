@@ -18,5 +18,6 @@
         "vscode-kubernetes.helm-path.mac": "/Users/alkuzmanov/.vs-kubernetes/tools/helm/darwin-amd64/helm"
     },
     "python.languageServer": "Microsoft",
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "editor.largeFileOptimizations": false
 }
