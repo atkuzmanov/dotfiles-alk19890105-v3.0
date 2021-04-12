@@ -172,6 +172,13 @@ tools/gulp-tasks/cldr/cldr-data/
 
 
 
+## jupyter notebook
+################################
+.ipynb_checkpoints
+################################
+
+
+
 # Compiled source
 ################################
 *.com
