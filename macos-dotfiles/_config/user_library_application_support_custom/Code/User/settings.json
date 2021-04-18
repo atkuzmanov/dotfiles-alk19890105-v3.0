@@ -19,5 +19,11 @@
     },
     "python.languageServer": "Microsoft",
     "window.zoomLevel": 0,
-    "editor.largeFileOptimizations": false
+    "editor.largeFileOptimizations": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
 }
