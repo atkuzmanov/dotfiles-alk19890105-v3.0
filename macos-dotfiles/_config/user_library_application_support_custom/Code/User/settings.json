@@ -26,5 +26,12 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "window.zoomLevel": 0,
     "security.workspace.trust.untrustedFiles": "open",
-    "redhat.telemetry.enabled": false
+    "redhat.telemetry.enabled": false,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": false,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    }
 }
