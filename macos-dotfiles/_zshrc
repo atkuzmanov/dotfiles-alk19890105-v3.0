@@ -172,6 +172,13 @@ ssh-add -A 2>/dev/null;
 ################################
 
 ################################
+### python stuff below
+### pyenv
+
+eval "$(pyenv init -)"
+################################
+
+################################
 ### conda init generated code below
 
 # >>> conda initialize >>>

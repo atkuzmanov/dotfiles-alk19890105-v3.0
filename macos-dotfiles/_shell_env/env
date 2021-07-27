@@ -146,11 +146,14 @@ alias python='python3'
 # export PYTHON_OPTS="$PYTHON_HOME/3.8.6_1/bin"
 # export PYTHON_3_BIN="/Users/[USER]/Library/Python/3.9/bin"
 ##
-# export PYTHON_HOME="/usr/local/Cellar/python@3.9/3.9.0_1"
-# export PYTHON_BIN="/usr/local/Cellar/python@3.9/3.9.0_1/bin"
+# export PYTHON_HOME="/usr/local/Cellar/python@3.9/3.9.5"
+# export PYTHON_BIN="/usr/local/Cellar/python@3.9/3.9.5/bin"
 ##
+# export PYTHON_ANACONDA_HOME="/usr/local/anaconda3/bin/python3.8"
 export PYTHON_ANACONDA_HOME="/usr/local/anaconda3/bin/python3.8"
 export PYTHON_ANACONDA_BIN="/usr/local/anaconda3/bin"
+### pyenv python
+export PYENV_ROOT="$HOME/.pyenv"
 
 ### Amazon AWS exports
 ## export AWS_DEFAULT_PROFILE=adminuser
@@ -240,6 +243,7 @@ export PATH=$PATH:$GOROOT/bin
 export PATH=$M3:$PATH
 export PATH=~/.local/bin:$PATH
 # export PATH=/usr/local/bin:$PATH
+export PATH="$PYENV_ROOT/bin:$PATH"
 
 ################################
 ################################
