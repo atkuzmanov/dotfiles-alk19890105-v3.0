@@ -20,7 +20,7 @@
     "python.languageServer": "Microsoft",
     "editor.largeFileOptimizations": false,
     "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
+        "*.ipynb": "jupyter-notebook"
     },
     "workbench.editor.untitled.hint": "hidden",
     "typescript.updateImportsOnFileMove.enabled": "always",
@@ -33,5 +33,9 @@
         "yaml": false,
         "plaintext": false,
         "markdown": false
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
     }
 }
