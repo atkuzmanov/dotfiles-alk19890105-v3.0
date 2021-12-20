@@ -127,7 +127,7 @@ source ~/.fonts_awesome_terminal_fonts_custom/*.sh
 ## Uncomment line below and use for anonymous prompt:
 # PROMPT='%F{yellow}$%F{blue}>%F{red}.%F{green}_ '
 # PROMPT='%F{green}$%F{blue}%n%F{yellow}@%F{red}%M%F{green}>._ '
-PROMPT='%F{green}$%F{red}@%F{blue}%~%F{green}>._ '
+# PROMPT='%F{green}$%F{red}@%F{blue}%~%F{green}>._ '
 
 ## Kubernetes prompt to display on which cluster you are logged in.
 # RPROMPT='%{$fg[blue]%}($ZSH_KUBECTL_PROMPT)%{$reset_color%}'
