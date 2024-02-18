@@ -9,4 +9,5 @@
 	"open_files_in_new_window": false,
 	"spell_check": true,
 	"theme": "Adaptive.sublime-theme",
+	"index_files": true,
 }
