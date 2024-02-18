@@ -15,30 +15,42 @@ brew "webp"
 brew "jpeg-xl"
 # Codec library for encoding and decoding AV1 video streams
 brew "aom"
+# Mozilla CA certificate store
+brew "ca-certificates"
+# Companion library to apr, the Apache Portable Runtime library
+brew "apr-util"
 # Core application library for C
 brew "glib"
 # Protocol definitions and daemon for D-Bus at-spi
 brew "at-spi2-core"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
+brew "python@3.12"
 # Shell extension to jump to frequently used directories
 brew "autojump"
 # Microsoft Azure CLI 2.0
 brew "azure-cli"
 # Bash shell debugger
 brew "bashdb"
+# Vector graphics library with cross-device output support
+brew "cairo"
 # OpenType text shaping engine
 brew "harfbuzz"
 # Remove large files or passwords from Git history like git-filter-branch
 brew "bfg"
+# CD/DVD/Blu-ray premastering and recording software
+brew "cdrtools"
 # Check Java source against a coding standard
 brew "checkstyle"
 # Rootkit detector
 brew "chkrootkit"
 # Console Matrix
 brew "cmatrix"
+# Filename encoding conversion tool
+brew "convmv"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
+# C library implementing the SSH2 protocol
+brew "libssh2"
 # International domain name library (IDNA2008, Punycode and TR46)
 brew "libidn2"
 # Get a file from an HTTP, HTTPS or FTP server
@@ -47,10 +59,24 @@ brew "curl"
 brew "docker", link: false
 # Isolated development environments using Docker
 brew "docker-compose", link: false
+# Text processing system for reStructuredText
+brew "docutils"
 # Charset analyzer and converter
 brew "enca"
 # Convert text to Postscript, HTML, or RTF, with syntax highlighting
 brew "enscript"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
+# Image processing and image analysis library
+brew "leptonica"
+# Framework for layout and rendering of i18n text
+brew "pango"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # Library for encoding and decoding .avif files
 brew "libavif"
 # Graphics library to dynamically manipulate images

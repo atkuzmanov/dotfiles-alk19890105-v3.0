@@ -2,10 +2,15 @@ tap "adoptopenjdk/openjdk"
 tap "homebrew/bundle"
 tap "homebrew/cask-versions", "https://github.com/caskroom/homebrew-versions"
 tap "pivotal/tap"
+tap "snyk/tap"
 tap "spring-io/tap"
 tap "teamookla/speedtest"
+# Search tool like grep, but optimized for programmers
+brew "ack"
 # Plugin manager for zsh, inspired by oh-my-zsh and vundle
 brew "antigen"
+# Image format providing lossless and lossy compression for web images
+brew "webp"
 # New file format for still image compression
 brew "jpeg-xl"
 # Codec library for encoding and decoding AV1 video streams
@@ -16,14 +21,16 @@ brew "ca-certificates"
 brew "apr-util"
 # Core application library for C
 brew "glib"
+# Protocol definitions and daemon for D-Bus at-spi
+brew "at-spi2-core"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
+brew "python@3.12"
 # Shell extension to jump to frequently used directories
 brew "autojump"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
 # Bash shell debugger
 brew "bashdb"
-# High performance key/value database
-brew "berkeley-db", link: true
 # Vector graphics library with cross-device output support
 brew "cairo"
 # OpenType text shaping engine
@@ -44,6 +51,8 @@ brew "convmv"
 brew "coreutils"
 # C library implementing the SSH2 protocol
 brew "libssh2"
+# International domain name library (IDNA2008, Punycode and TR46)
+brew "libidn2"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Pack, ship and run any application as a lightweight container
