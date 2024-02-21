@@ -1,0 +1,402 @@
+tap "adoptopenjdk/openjdk"
+tap "homebrew/bundle"
+tap "homebrew/cask", "https://github.com/caskroom/homebrew-cask"
+tap "homebrew/cask-versions", "https://github.com/caskroom/homebrew-versions"
+tap "homebrew/core"
+tap "pivotal/tap"
+tap "teamookla/speedtest"
+# Plugin manager for zsh, inspired by oh-my-zsh and vundle
+brew "antigen"
+# Companion library to apr, the Apache Portable Runtime library
+brew "apr-util"
+# Shell extension to jump to frequently used directories
+brew "autojump"
+# Bash shell debugger
+brew "bashdb"
+# High performance key/value database
+brew "berkeley-db"
+# Remove large files or passwords from Git history like git-filter-branch
+brew "bfg"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
+# Core application library for C
+brew "glib"
+# CD/DVD/Blu-ray premastering and recording software
+brew "cdrtools"
+# Check Java source against a coding standard
+brew "checkstyle"
+# Rootkit detector
+brew "chkrootkit"
+# Console Matrix
+brew "cmatrix"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# Pack, ship and run any application as a lightweight container
+brew "docker", link: false
+# Isolated development environments using Docker
+brew "docker-compose", link: false
+# Charset analyzer and converter
+brew "enca"
+# Convert text to Postscript, HTML, or RTF, with syntax highlighting
+brew "enscript"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
+# Generate introspection data for GObject libraries
+brew "gobject-introspection"
+# OpenType text shaping engine
+brew "harfbuzz"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# Graphics library to dynamically manipulate images
+brew "gd"
+# Distributed revision control system
+brew "git"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg", link: false
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Web application framework for the Groovy language
+brew "grails"
+# Framework for layout and rendering of i18n text
+brew "pango"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# Java-based scripting language
+brew "groovy", link: false
+# SDK for Groovy: a Java-based scripting language
+brew "groovysdk"
+# Improved top (interactive process viewer)
+brew "htop"
+# JBoss Application Server
+brew "jboss-as"
+# Manage your Java environment
+brew "jenv"
+# Java servlet engine and webserver
+brew "jetty"
+# Use Jetty without an installed distribution
+brew "jetty-runner"
+# Load testing and performance measurement application
+brew "jmeter"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Tool to move from `docker-compose` to Kubernetes
+brew "kompose"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
+# Build tool for Clojure
+brew "leiningen"
+# C library implementing the SSH2 protocol
+brew "libssh2"
+# Friendly wrapper for launchctl
+brew "lunchy"
+# Java-based project management
+brew "maven", link: false
+# Java-based project management
+brew "maven@3.5", link: true
+# Terminal-based visual file manager
+brew "midnight-commander"
+# Run a Kubernetes cluster locally
+brew "minikube"
+# Move, copy, append, and link multiple files
+brew "mmv"
+# Open source relational database management system
+brew "mysql"
+# Platform built on V8 to build network applications
+brew "node"
+# Extract ISO9660 data from Nero nrg files
+brew "nrg2iso"
+# Generate clients, server & docs from an OpenAPI spec (v2, v3)
+brew "openapi-generator"
+# Development kit for the Java programming language
+brew "openjdk@11"
+# Create TCP tunnels through HTTPS proxies
+brew "proxytunnel"
+# Python version management
+brew "pyenv"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.8"
+# Reattach process (e.g., tmux) to background
+brew "reattach-to-user-namespace"
+# Persistent key-value database, with built-in net interface
+brew "redis"
+# Perl-powered file rename script with many helpful built-ins
+brew "rename"
+# Standard unix software packaging tool
+brew "rpm"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
+# Build tool for Scala projects
+brew "sbt"
+# JVM-based programming language
+brew "scala"
+# Run scalastyle from the command-line
+brew "scalastyle"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+# SSL tunneling program
+brew "stunnel"
+# Version control system designed to be a better CVS
+brew "subversion"
+# Powerful free data recovery utility
+brew "testdisk"
+# Terminal multiplexer
+brew "tmux"
+# CPU, RAM memory, and load monitor for use with tmux
+brew "tmux-mem-cpu-load"
+# Manage complex tmux sessions easily
+brew "tmuxinator"
+# Implementation of Java Servlet and JavaServer Pages
+brew "tomcat"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Ncurses-based klondike solitaire game
+brew "tty-solitaire"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
+# Internet file retriever
+brew "wget"
+# Automatic workarounds for problems in Wine
+brew "winetricks"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
+# UNIX shell (command interpreter)
+brew "zsh"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+# Additional completion definitions for zsh
+brew "zsh-completions"
+# Informative git prompt for zsh
+brew "zsh-git-prompt"
+# Zsh port of Fish shell's history search
+brew "zsh-history-substring-search"
+# Tips, tricks, and examples for zsh
+brew "zsh-lovers"
+# Zsh curses-based tools, e.g. multi-word history searcher
+brew "zsh-navigation-tools"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
+# Debugger for zsh
+brew "zshdb"
+brew "pivotal/tap/springboot"
+cask "adobe-reader"
+# JDK from the Java User Group (JUG)
+cask "adoptopenjdk"
+# AdoptOpenJDK OpenJDK (Java) Development Kit
+cask "adoptopenjdk11"
+# AdoptOpenJDK OpenJDK (Java) Development Kit
+cask "adoptopenjdk14"
+# AdoptOpenJDK OpenJDK (Java) Development Kit
+cask "adoptopenjdk15"
+# Prebuilt OpenJDK binaries
+cask "adoptopenjdk8"
+# AdoptOpenJDK OpenJDK (Java) Development Kit
+cask "adoptopenjdk9"
+# Distribution of the Python and R programming languages for scientific computing
+cask "anaconda"
+# Transfer files from and to an Android smartphone
+cask "android-file-transfer"
+# Text editor
+cask "atom"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
+# Utility to create and modify archives
+cask "betterzip"
+# 3D creation suite
+cask "blender"
+# Web browser focusing on privacy
+cask "brave-browser"
+# CD burning application
+cask "burn"
+# Utility that prevents the system from going to sleep
+cask "caffeine"
+# Remove junk and unused files
+cask "ccleaner"
+# Tool to list all active shortcuts of the current application
+cask "cheatsheet"
+# Free and open-source web browser
+cask "chromium"
+cask "colloquy"
+# Server and cloud storage browser
+cask "cyberduck"
+# API documentation browser and code snippet manager
+cask "dash"
+# Visually compare and merge files
+cask "diffmerge"
+# Voice and text chat software
+cask "discord"
+# App to build and share containerized applications and microservices
+cask "docker"
+# Client for the Dropbox cloud storage service
+cask "dropbox"
+# Eclipse IDE for Java EE developers
+cask "eclipse-jee"
+# Video and audio player
+cask "elmedia-player"
+# Text editor
+cask "emacs"
+# Web browser
+cask "firefox"
+cask "flash-player"
+# Disk partitioning tool
+cask "gdisk"
+# Free and open-source image editor
+cask "gimp"
+cask "github-desktop"
+# Web browser
+cask "google-chrome"
+# Client for the Google Drive storage service
+cask "google-drive"
+cask "google-earth"
+cask "google-photos-backup"
+cask "google-plus-auto-backup"
+# Tools to protect your emails and files
+cask "gpg-suite"
+# Desktop automation application
+cask "hammerspoon"
+# Vector graphics editor
+cask "inkscape"
+# HTTP and GraphQL Client
+cask "insomnia"
+# IDE for Java development - community edition
+cask "intellij-idea-ce"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+cask "java"
+cask "java-jdk-javadoc"
+# Legacy runtime for the Java programming language
+cask "java6"
+cask "java7"
+# Standalone Java Decompiler GUI
+cask "jd-gui"
+# Keyboard customizer
+cask "karabiner-elements"
+# Tool to prevent the system from going into sleep mode
+cask "keepingyouawake"
+# File archiver
+cask "keka"
+# End-to-end encryption software
+cask "keybase"
+cask "keystore-explorer"
+# Audio tagger focusing on efficiency
+cask "kid3"
+# Office suite
+cask "libreoffice"
+# Collection of alternate languages for LibreOffice
+cask "libreoffice-language-pack"
+cask "lunchy"
+# File system integration
+cask "macfuse"
+cask "malwarebytes-anti-malware"
+# Creats high-quality audio files in various formats, from CDs or files
+cask "max"
+# YouTube videos downloader
+cask "mediahuman-youtube-downloader"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
+# Open source implementation of Microsoft's .NET Framework
+cask "mono-mdk"
+# Media player based on MPlayer and mplayer2
+cask "mpv"
+cask "music-manager"
+# Music tagger
+cask "musicbrainz-picard"
+# Visual tool to design, develop and administer MySQL servers
+cask "mysqlworkbench"
+cask "ntfstool"
+# Web browser
+cask "opera"
+# File system integration
+cask "osxfuse"
+# Image editor
+cask "paintbrush"
+cask "paragon-ntfs"
+cask "pencil"
+# Simple Gtk# Paint Program
+cask "pinta"
+# Collaboration platform for API development
+cask "postman"
+# Anti-theft, data security, and management platform
+cask "prey"
+# PyCharm IDE with Anaconda plugin
+cask "pycharm-ce-with-anaconda-plugin"
+# Peer to peer Bitorrent client
+cask "qbittorrent"
+# NAS management application
+cask "qfinder-pro"
+cask "rdm"
+# Scans, detects, and monitors keyboard taps
+cask "reikey"
+cask "robomongo"
+# MySQL/MariaDB database management platform
+cask "sequel-pro"
+# Instant messaging application focusing on security
+cask "signal"
+cask "silverlight"
+# Video chat, voice call and instant messaging application
+cask "skype"
+# Team communication and collaboration software
+cask "slack"
+# Sets a minimum speed for built-in fans
+cask "smcfancontrol"
+cask "soundflower"
+# Taps into Soundflower channels and route them to an audio device
+cask "soundflowerbed"
+# Move and resize windows with ease
+cask "spectacle"
+# Next generation tooling for Spring Boot
+cask "springtoolsuite"
+# Text editor for code, markup and prose
+cask "sublime-text"
+# Remote access and connectivity software focused on security
+cask "teamviewer"
+# Messaging app with a focus on speed and security
+cask "telegram"
+# Customizable email client
+cask "thunderbird"
+# Customizable timing of breaks
+cask "time-out"
+# Development environment
+cask "vagrant"
+# Disk encryption software focusing on security based on TrueCrypt
+cask "veracrypt"
+# Calling and messaging application focusing on security
+cask "viber"
+# Free and open-source hosted hypervisor for x86 virtualization
+cask "virtualbox"
+# AMD64/Intel64 and x86 virtualization
+cask "virtualbox-extension-pack"
+# All-in-one UML, SysML, BPMN Modeling Platform for Agile
+cask "visual-paradigm-ce"
+# Open-source code editor
+cask "visual-studio-code"
+# All-in-One Java Troubleshooting Tool
+cask "visualvm"
+# Multimedia player
+cask "vlc"
+# Mirror and control your phone
+cask "vysor"
+cask "webex-meetings"
+# Desktop client for WhatsApp
+cask "whatsapp"
+# Network protocol analyzer
+cask "wireshark"
+# Lossless audio decoder
+cask "xld"
+# Photo viewer, image manager, image resizer and more
+cask "xnviewmp"
+# Open-source version of the X.Org X Window System
+cask "xquartz"
+cask "xrg"
+# Create diagrams manually, or import external data for analysis
+cask "yed"
+cask "yourkit-java-profiler"
+# Temporary makeshift alias for the video communication tool Zoom
+cask "zoomus"

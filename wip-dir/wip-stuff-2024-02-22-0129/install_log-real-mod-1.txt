@@ -1,0 +1,983 @@
+
+nothing added to commit but untracked files present (use "git add" to track)
+./dotfiles-brew-install-script-1.sh
+==> Checking for `sudo` access (which may request your password)...
+Password:
+==> This script will install:
+/opt/homebrew/bin/brew
+/opt/homebrew/share/doc/homebrew
+/opt/homebrew/share/man/man1/brew.1
+/opt/homebrew/share/zsh/site-functions/_brew
+/opt/homebrew/etc/bash_completion.d/brew
+/opt/homebrew
+
+Press RETURN/ENTER to continue or any other key to abort:
+==> /usr/bin/sudo /usr/sbin/chown -R kuzmanov:admin /opt/homebrew
+==> Downloading and installing Homebrew...
+HEAD is now at e5fefd73c Merge pull request #16697 from apainintheneck/update-some-formulary-specs
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+
+Already up-to-date.
+Tapping adoptopenjdk/openjdk
+Using homebrew/bundle
+Tapping homebrew/cask-versions
+Tapping pivotal/tap
+Tapping snyk/tap
+Tapping spring-io/tap
+Tapping teamookla/speedtest
+Installing ack
+Installing antigen
+Installing webp
+Installing jpeg-xl
+Installing aom
+Using ca-certificates
+Installing apr-util
+Installing glib
+Installing at-spi2-core
+Installing python@3.12
+Installing pyenv
+Installing autojump
+Installing azure-cli
+Installing bashdb
+Installing cairo
+Installing harfbuzz
+Installing bfg
+Installing cdrtools
+Installing maven
+Installing java6
+Password:
+Installing adoptopenjdk
+Installing adoptopenjdk8
+Error: Cask adoptopenjdk8 exists in multiple taps:
+  homebrew/cask-versions/adoptopenjdk8
+  adoptopenjdk/openjdk/adoptopenjdk8
+Installing adoptopenjdk8 has failed!
+Installing oracle-jdk-javadoc
+Installing openjdk@11
+Installing checkstyle
+Installing jenv
+Installing jetty
+Installing jetty-runner
+Installing jmeter
+Installing tomcat
+Installing jd-gui
+Installing jprofiler
+Installing keystore-explorer
+Installing intellij-idea
+Installing intellij-idea-ce
+==> Downloading https://download.jetbrains.com/idea/ideaIC-2023.3.4-aarch64.dmg
+==> Downloading from https://download-cdn.jetbrains.com/idea/ideaIC-2023.3.4-aarch64.dmg
+==> Installing Cask intellij-idea-ce
+Error: It seems there is already an App at '/Applications/IntelliJ IDEA CE.app'.
+==> Purging files for version 2023.3.4,233.14475.28 of Cask intellij-idea-ce
+Installing intellij-idea-ce has failed!
+Installing eclipse-jee
+Installing kotlin
+Installing groovy
+Installing groovysdk
+Installing gradle
+Installing grails
+Installing chkrootkit
+Installing cmatrix
+Installing convmv
+Installing coreutils
+Installing libssh2
+Using libidn2
+Installing curl
+Installing docker
+Installing docker-compose
+Installing docutils
+Installing enca
+Installing enscript
+Using unbound
+Using gnutls
+Installing leptonica
+Installing pango
+Installing tesseract
+Installing ffmpeg
+Installing libavif
+Installing gd
+Installing gdk-pixbuf
+Installing ghostscript
+Installing git
+Installing git-lfs
+Using gnupg
+Installing go
+Installing gobject-introspection
+Installing jasper
+Installing netpbm
+Installing gts
+Using pango
+Installing librsvg
+Installing graphviz
+Installing gsettings-desktop-schemas
+Installing gtk+3
+Installing guile
+Installing helm
+Installing smartmontools
+Installing gsmartcontrol
+Installing htop
+Installing shared-mime-info
+Installing libheif
+Installing libraw
+Installing imagemagick
+Installing jq
+Installing keepassc
+Installing kompose
+Installing kubernetes-cli
+Installing kubeseal
+Installing leiningen
+Installing libfido2
+Installing libarchive
+Installing libgusb
+Installing libhandy
+Installing lunchy
+Installing midnight-commander
+Installing minikube
+Installing mmv
+Installing mysql
+Installing nghttp2
+Installing node
+Installing nrg2iso
+Installing nvm
+Installing openapi-generator
+Installing swagger-codegen
+Installing perl
+Installing socat
+Installing openshift-cli
+Installing openvpn
+Installing proxytunnel
+Installing syncthing
+Installing rclone
+Installing rsync
+Installing reattach-to-user-namespace
+Installing redis
+Installing rename
+Skipping rpm (no bottle for Apple Silicon)
+Installing ruby
+Installing sbt
+Installing scala
+Installing scalastyle
+Installing scons
+Installing simple-scan
+Installing speedtest-cli
+Installing sphinx-doc
+Installing stow
+Installing stunnel
+Installing subversion
+Installing testdisk
+Installing tmux
+Installing tmux-mem-cpu-load
+Installing tmuxinator
+Installing tree
+Installing tty-solitaire
+Skipping upx (no bottle for Apple Silicon)
+Installing watch
+Installing wget
+Installing winetricks
+Installing youtube-dl
+Installing zsh
+Installing zsh-autosuggestions
+Installing zsh-completions
+Installing zsh-git-prompt
+Installing zsh-history-substring-search
+Installing zsh-lovers
+Installing zsh-navigation-tools
+Installing zsh-syntax-highlighting
+Installing zshdb
+Installing snyk/tap/snyk
+Installing spring-io/tap/spring-boot
+Installing adobe-acrobat-reader
+Password:
+Installing anaconda
+Installing android-file-transfer
+Installing balenaetcher
+Using betterzip
+Installing blender
+Using brave-browser
+Installing bruno
+Installing burn
+Installing caffeine
+Installing ccleaner
+Installing cheatsheet
+Installing chromium
+Installing clipgrab
+Installing cloudflare-warp
+Installing cyberduck
+Installing dash
+Installing deepl
+==> Downloading https://www.deepl.com/macos/download/24.1.2756848/DeepL_24.1.2756848.tar.gz
+curl: (22) The requested URL returned error: 404
+Error: Download failed on Cask 'deepl' with message: Download failed: https://www.deepl.com/macos/download/24.1.2756848/DeepL_24.1.2756848.tar.gz
+Installing deepl has failed!
+Installing diffmerge
+Installing discord
+Installing docker
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/934cbb9b3e4801e3a2793e48c84ec47fc488cd39/Casks/d/docker.rb
+==> Downloading https://desktop.docker.com/mac/main/arm64/137060/Docker.dmg
+==> Installing Cask docker
+==> Moving App 'Docker.app' to '/Applications/Docker.app'
+==> Linking Binary 'docker' to '/usr/local/bin/docker'
+==> Linking Binary 'docker-compose' to '/usr/local/bin/docker-compose'
+==> Linking Binary 'docker-credential-desktop' to '/usr/local/bin/docker-credential-desktop'
+==> Linking Binary 'docker-credential-ecr-login' to '/usr/local/bin/docker-credential-ecr-login'
+==> Linking Binary 'docker-credential-osxkeychain' to '/usr/local/bin/docker-credential-osxkeychain'
+==> Linking Binary 'docker-index' to '/usr/local/bin/docker-index'
+==> Linking Binary 'kubectl' to '/usr/local/bin/kubectl.docker'
+==> Unlinking Binary '/usr/local/bin/kubectl.docker'
+==> Unlinking Binary '/usr/local/bin/docker-index'
+==> Unlinking Binary '/usr/local/bin/docker-credential-osxkeychain'
+==> Unlinking Binary '/usr/local/bin/docker-credential-ecr-login'
+==> Unlinking Binary '/usr/local/bin/docker-credential-desktop'
+==> Unlinking Binary '/usr/local/bin/docker-compose'
+==> Unlinking Binary '/usr/local/bin/docker'
+==> Backing App 'Docker.app' up to '/opt/homebrew/Caskroom/docker/4.27.2,137060/Docker.app'
+Error: It seems there is already a Binary at '/opt/homebrew/etc/bash_completion.d/docker'.
+==> Removing App '/Applications/Docker.app'
+==> Purging files for version 4.27.2,137060 of Cask docker
+Installing docker has failed!
+Installing drawio
+Installing dropbox
+Installing elmedia-player
+Installing emacs
+Installing firefox
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/934cbb9b3e4801e3a2793e48c84ec47fc488cd39/Casks/f/firefox.rb
+==> Downloading https://download-installer.cdn.mozilla.net/pub/firefox/releases/122.0.1/mac/en-US/Firefox%20122.0.1.dmg
+==> Installing Cask firefox
+Error: It seems there is already an App at '/Applications/Firefox.app'.
+==> Purging files for version 122.0.1 of Cask firefox
+Installing firefox has failed!
+Installing firefox-developer-edition
+==> Downloading https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=osx&lang=en-US
+==> Downloading from https://download-installer.cdn.mozilla.net/pub/devedition/releases/123.0b9/mac/en-US/Firefox%20123.0b9.dmg
+Warning: No checksum defined for cask 'firefox-developer-edition', skipping verification.
+==> Installing Cask firefox-developer-edition
+Error: It seems there is already an App at '/Applications/Firefox Developer Edition.app'.
+==> Purging files for version latest of Cask firefox-developer-edition
+Installing firefox-developer-edition has failed!
+Installing gdisk
+Installing gimp
+Installing google-chrome
+Using google-drive
+Installing github
+Installing gpg-suite
+Installing graphql-playground
+Installing hammerspoon
+Installing horos
+Installing inkscape
+Installing insomnia
+Using iterm2
+Installing karabiner-elements
+Installing keepingyouawake
+Installing keka
+Installing keybase
+Installing kid3
+Installing libreoffice
+Installing libreoffice-language-pack
+Installing malwarebytes
+Installing macfuse
+==> Caveats
+macfuse requires a kernel extension to work.
+If the installation fails, retry after you enable it in:
+  System Preferences → Security & Privacy → General
+
+For more information, refer to vendor documentation or this Apple Technical Note:
+  https://developer.apple.com/library/content/technotes/tn2459/_index.html
+
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/934cbb9b3e4801e3a2793e48c84ec47fc488cd39/Casks/m/macfuse.rb
+==> Downloading https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.0/macfuse-4.6.0.dmg
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/fbc1e93ff4b2e277a02800e5ce8776354c1ae18d57dbddb1cd3d7d1464f495c0--macfuse-4.6.0.dmg
+==> Installing Cask macfuse
+==> Running installer for macfuse with sudo; the password may be necessary.
+installer: Package name is macFUSE
+installer: Upgrading at base path /
+installer: The upgrade was successful.
+==> Changing ownership of paths required by macfuse with sudo; the password may be necessary.
+chown: /usr/local/lib/sentinel.dylib: Operation not permitted
+Error: Failure while executing; `/usr/bin/sudo -E -- /usr/sbin/chown -R -- kuzmanov:staff /usr/local/include /usr/local/lib` exited with 1. Here's the output:
+chown: /usr/local/lib/sentinel.dylib: Operation not permitted
+==> Purging files for version 4.6.0 of Cask macfuse
+Installing macfuse has failed!
+Installing mediahuman-youtube-downloader
+Installing microsoft-edge
+Installing microsoft-edge-dev
+Installing microsoft-teams
+Installing mono-mdk
+Installing mpv
+Installing mullvadvpn
+Installing music-manager
+Installing musicbrainz-picard
+Installing mysqlworkbench
+Installing ntfstool
+==> Downloading https://github.com/ntfstool/ntfstool/releases/download/2.3.2/NTFSTool-2.3.2.dmg
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/242364937/dbd64e80-9449-11ea-9bcf-016fccd54b42?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240219T124803Z&X-Amz-Expires=300&X-Amz-Signature=14f6cb358c65fdc3204fc21a8bbd2a2b52a783048c23a904c6de7800c4989db3&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=242364937&response-content-disposition=attachment%3B%20filename%3DNTFSTool-2.3.2.dmg&response-content-type=application%2Foctet-stream
+==> Installing dependencies: macfuse
+==> Caveats
+macfuse requires a kernel extension to work.
+If the installation fails, retry after you enable it in:
+  System Preferences → Security & Privacy → General
+
+For more information, refer to vendor documentation or this Apple Technical Note:
+  https://developer.apple.com/library/content/technotes/tn2459/_index.html
+
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/934cbb9b3e4801e3a2793e48c84ec47fc488cd39/Casks/m/macfuse.rb
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/ed12983e2650f41b0b481b4c52939282ce71e74aec86904036bb4282c025c24a--macfuse.rb
+==> Downloading https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.0/macfuse-4.6.0.dmg
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/fbc1e93ff4b2e277a02800e5ce8776354c1ae18d57dbddb1cd3d7d1464f495c0--macfuse-4.6.0.dmg
+==> Installing Cask macfuse
+==> Running installer for macfuse with sudo; the password may be necessary.
+installer: Package name is macFUSE
+installer: Upgrading at base path /
+installer: The upgrade was successful.
+==> Changing ownership of paths required by macfuse with sudo; the password may be necessary.
+chown: /usr/local/lib/sentinel.dylib: Operation not permitted
+Error: Failure while executing; `/usr/bin/sudo -E -- /usr/sbin/chown -R -- kuzmanov:staff /usr/local/include /usr/local/lib` exited with 1. Here's the output:
+chown: /usr/local/lib/sentinel.dylib: Operation not permitted
+==> Purging files for version 4.6.0 of Cask macfuse
+Installing ntfstool has failed!
+Installing paragon-ntfs
+Installing onedrive
+Installing opera
+Installing osxfuse
+==> Caveats
+`osxfuse` has been succeeded by `macfuse` as of version 4.0.0.
+
+To update to a newer version, do:
+  brew uninstall osxfuse
+  brew install macfuse
+
+osxfuse requires a kernel extension to work.
+If the installation fails, retry after you enable it in:
+  System Preferences → Security & Privacy → General
+
+For more information, refer to vendor documentation or this Apple Technical Note:
+  https://developer.apple.com/library/content/technotes/tn2459/_index.html
+
+You must reboot for the installation of osxfuse to take effect.
+
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/934cbb9b3e4801e3a2793e48c84ec47fc488cd39/Casks/o/osxfuse.rb
+==> Downloading https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.11.2/osxfuse-3.11.2.dmg
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/1867347/ab8d9600-06f1-11eb-9e31-17e04b5951ce?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240219T124910Z&X-Amz-Expires=300&X-Amz-Signature=51335c6287a13c1d2157225ed8970860a3642cb5f73c037b2ad42520621e3cac&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=1867347&response-content-disposition=attachment%3B%20filename%3Dosxfuse-3.11.2.dmg&response-content-type=application%2Foctet-stream
+==> Installing Cask osxfuse
+==> Running installer for osxfuse with sudo; the password may be necessary.
+installer: Error - The FUSE for macOS installation package is not compatible with this version of macOS.
+Error: Failure while executing; `/usr/bin/sudo -u root -E LOGNAME=kuzmanov USER=kuzmanov USERNAME=kuzmanov -- /usr/sbin/installer -pkg /opt/homebrew/Caskroom/osxfuse/3.11.2/Extras/FUSE\ for\ macOS\ 3.11.2.pkg -target /` exited with 1. Here's the output:
+installer: Error - The FUSE for macOS installation package is not compatible with this version of macOS.
+==> Purging files for version 3.11.2 of Cask osxfuse
+Installing osxfuse has failed!
+Installing paintbrush
+Installing pencil
+Installing pinta
+Installing plistedit-pro
+Installing postman
+Installing pycharm-ce-with-anaconda-plugin
+Installing protonvpn
+Installing qbittorrent
+Installing qfinder-pro
+Password:
+Installing reikey
+Installing resilio-sync
+Installing shotcut
+Installing smcfancontrol
+Installing soundflower
+==> Caveats
+soundflower requires a kernel extension to work.
+If the installation fails, retry after you enable it in:
+  System Preferences → Security & Privacy → General
+
+For more information, refer to vendor documentation or this Apple Technical Note:
+  https://developer.apple.com/library/content/technotes/tn2459/_index.html
+
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/934cbb9b3e4801e3a2793e48c84ec47fc488cd39/Casks/s/soundflower.rb
+==> Downloading https://github.com/mattingalls/Soundflower/releases/download/2.0b2/Soundflower-2.0b2.dmg
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/26034210/c0fdc2e0-86d1-11e4-853e-5e53e913b959?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240219%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240219T125856Z&X-Amz-Expires=300&X-Amz-Signature=df44c6d434cd5eecdb6979d5f4f9bd51435b3d1f57ba0569176c92a66edac255&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=26034210&response-content-disposition=attachment%3B%20filename%3DSoundflower-2.0b2.dmg&response-content-type=application%2Foctet-stream
+==> Installing Cask soundflower
+==> Running installer for soundflower with sudo; the password may be necessary.
+Error: Failure while executing; `/usr/bin/sudo -u root -E LOGNAME=kuzmanov USER=kuzmanov USERNAME=kuzmanov -- /usr/sbin/installer -pkg /opt/homebrew/Caskroom/soundflower/2.0b2/Soundflower.pkg -target /` exited with 1. Here's the output:
+installer: Package name is Soundflower
+installer: Installing at base path /
+installer: The install failed. (The Installer encountered an error that caused the installation to fail. Contact the software manufacturer for assistance. An error occurred while running scripts from the package “Soundflower.pkg”.)
+installer: Package name is Soundflower
+installer: Installing at base path /
+installer: The install failed. (The Installer encountered an error that caused the installation to fail. Contact the software manufacturer for assistance. An error occurred while running scripts from the package “Soundflower.pkg”.)
+==> Purging files for version 2.0b2 of Cask soundflower
+Installing soundflower has failed!
+Installing soundflowerbed
+Installing sourcetree
+Using rectangle
+Installing springtoolsuite
+Installing studio-3t
+Using sublime-text
+Installing teamviewer
+Installing thunderbird
+Installing time-out
+Installing tor-browser
+^[^[^[^[Installing veracrypt
+==> Downloading https://launchpad.net/veracrypt/trunk/1.26.7/+download/VeraCrypt_1.26.7.dmg
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/cd1acb8f93739e5ca280a16784ac1e31128138f0a3334e4192bb4ed9de16b8ae--VeraCrypt_1.26.7.dmg
+==> Installing dependencies: macfuse
+==> Caveats
+macfuse requires a kernel extension to work.
+If the installation fails, retry after you enable it in:
+  System Preferences → Security & Privacy → General
+
+For more information, refer to vendor documentation or this Apple Technical Note:
+  https://developer.apple.com/library/content/technotes/tn2459/_index.html
+
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/934cbb9b3e4801e3a2793e48c84ec47fc488cd39/Casks/m/macfuse.rb
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/ed12983e2650f41b0b481b4c52939282ce71e74aec86904036bb4282c025c24a--macfuse.rb
+==> Downloading https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.0/macfuse-4.6.0.dmg
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/fbc1e93ff4b2e277a02800e5ce8776354c1ae18d57dbddb1cd3d7d1464f495c0--macfuse-4.6.0.dmg
+==> Installing Cask macfuse
+==> Running installer for macfuse with sudo; the password may be necessary.
+installer: Package name is macFUSE
+installer: Upgrading at base path /
+installer: The upgrade was successful.
+==> Changing ownership of paths required by macfuse with sudo; the password may be necessary.
+chown: /usr/local/lib/sentinel.dylib: Operation not permitted
+Error: Failure while executing; `/usr/bin/sudo -E -- /usr/sbin/chown -R -- kuzmanov:staff /usr/local/include /usr/local/lib` exited with 1. Here's the output:
+chown: /usr/local/lib/sentinel.dylib: Operation not permitted
+==> Purging files for version 4.6.0 of Cask macfuse
+Installing veracrypt has failed!
+Installing virtualbox
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/934cbb9b3e4801e3a2793e48c84ec47fc488cd39/Casks/v/virtualbox.rb
+Error: Cask virtualbox depends on hardware architecture being one of [{:type=>:intel, :bits=>64}], but you are running {:type=>:arm, :bits=>64}.
+Installing virtualbox has failed!
+Installing visual-paradigm-ce
+Installing visual-studio-code
+Installing visualvm
+Installing vlc
+Installing vuescan
+Installing vysor
+Using warp
+Installing wireshark
+Installing xld
+Installing xnviewmp
+Installing xquartz
+Installing xrg
+Installing yed
+Installing zoom
+Using visual-studio-code
+Installing davidanson.vscode-markdownlint
+Installing dorian-marchal.add-line-break
+Installing dotjoshjohnson.xml
+Installing estivo.csv-editor
+Installing golang.go
+Installing github.copilot
+Installing grapecity.gc-excelviewer
+Installing huntertran.auto-markdown-toc
+Installing janisdd.vscode-edit-csv
+Installing khaeransori.json2csv
+Installing mdickin.markdown-shortcuts
+Installing mechatroner.rainbow-csv
+Installing ms-azuretools.vscode-docker
+Installing ms-kubernetes-tools.vscode-kubernetes-tools
+Installing ms-python.isort
+Installing ms-python.python
+Installing ms-python.vscode-pylance
+Installing ms-toolsai.jupyter
+Installing ms-toolsai.jupyter-keymap
+Installing ms-toolsai.jupyter-renderers
+Installing ms-toolsai.vscode-jupyter-cell-tags
+Installing ms-toolsai.vscode-jupyter-slideshow
+Installing ms-vscode-remote.remote-containers
+Installing redhat.java
+Installing redhat.vscode-commons
+Installing redhat.vscode-yaml
+Installing shengchen.vscode-checkstyle
+Installing skn0tt.markdown-link-expander
+Installing sonarsource.sonarlint-vscode
+Installing streetsidesoftware.code-spell-checker
+Installing visualstudioexptteam.intellicode-api-usage-examples
+Installing visualstudioexptteam.vscodeintellicode
+Installing vscjava.vscode-java-debug
+Installing vscjava.vscode-java-dependency
+Installing vscjava.vscode-java-pack
+Installing vscjava.vscode-java-test
+Installing vscjava.vscode-maven
+Installing yzhang.markdown-all-in-one
+Homebrew Bundle failed! 12 Brewfile dependencies failed to install.
+./dotfiles-brew-install-script-1.sh: line 17: he: command not found
+Using adoptopenjdk/openjdk
+Using homebrew/bundle
+Using homebrew/cask-versions
+Using pivotal/tap
+Using snyk/tap
+Using spring-io/tap
+Using teamookla/speedtest
+Using ack
+Using antigen
+Using webp
+Using jpeg-xl
+Using aom
+Using ca-certificates
+Using apr-util
+Using glib
+Using at-spi2-core
+Using python@3.12
+Using pyenv
+Using autojump
+Using azure-cli
+Using bashdb
+Using cairo
+Using harfbuzz
+Using bfg
+Using cdrtools
+Using maven
+Using java6
+Using adoptopenjdk
+Installing adoptopenjdk8
+Error: Cask adoptopenjdk8 exists in multiple taps:
+  homebrew/cask-versions/adoptopenjdk8
+  adoptopenjdk/openjdk/adoptopenjdk8
+Installing adoptopenjdk8 has failed!
+Using oracle-jdk-javadoc
+Using openjdk@11
+Using checkstyle
+Using jenv
+Using jetty
+Using jetty-runner
+Using jmeter
+Using tomcat
+Using jd-gui
+Using jprofiler
+Using keystore-explorer
+Using intellij-idea
+Installing intellij-idea-ce
+==> Downloading https://download.jetbrains.com/idea/ideaIC-2023.3.4-aarch64.dmg
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/810a28b395cf9f071e8dcb29683403de8d73e6989c53b6b1dd7a9ea0f42163dc--ideaIC-2023.3.4-aarch64.dmg
+==> Installing Cask intellij-idea-ce
+Error: It seems there is already an App at '/Applications/IntelliJ IDEA CE.app'.
+==> Purging files for version 2023.3.4,233.14475.28 of Cask intellij-idea-ce
+Installing intellij-idea-ce has failed!
+Using eclipse-jee
+Using kotlin
+Using groovy
+Using groovysdk
+Using gradle
+Using grails
+Using chkrootkit
+Using cmatrix
+Using convmv
+Using coreutils
+Using libssh2
+Using libidn2
+Using curl
+Using docker
+Using docker-compose
+Using docutils
+Using enca
+Using enscript
+Using unbound
+Using gnutls
+Using leptonica
+Using pango
+Using tesseract
+Using ffmpeg
+Using libavif
+Using gd
+Using gdk-pixbuf
+Using ghostscript
+Using git
+Using git-lfs
+Using gnupg
+Using go
+Using gobject-introspection
+Using jasper
+Using netpbm
+Using gts
+Using pango
+Using librsvg
+Using graphviz
+Using gsettings-desktop-schemas
+Using gtk+3
+Using guile
+Using helm
+Using smartmontools
+Using gsmartcontrol
+Using htop
+Using shared-mime-info
+Using libheif
+Using libraw
+Using imagemagick
+Using jq
+Using keepassc
+Using kompose
+Using kubernetes-cli
+Using kubeseal
+Using leiningen
+Using libfido2
+Using libarchive
+Using libgusb
+Using libhandy
+Using lunchy
+Using midnight-commander
+Using minikube
+Using mmv
+Using mysql
+Using nghttp2
+Using node
+Using nrg2iso
+Using nvm
+Using openapi-generator
+Using swagger-codegen
+Using perl
+Using socat
+Using openshift-cli
+Using openvpn
+Using proxytunnel
+Using syncthing
+Using rclone
+Using rsync
+Using reattach-to-user-namespace
+Using redis
+Using rename
+Skipping rpm (no bottle for Apple Silicon)
+Using ruby
+Using sbt
+Using scala
+Using scalastyle
+Using scons
+Using simple-scan
+Using speedtest-cli
+Using sphinx-doc
+Using stow
+Using stunnel
+Using subversion
+Using testdisk
+Using tmux
+Using tmux-mem-cpu-load
+Using tmuxinator
+Using tree
+Using tty-solitaire
+Skipping upx (no bottle for Apple Silicon)
+Using watch
+Using wget
+Using winetricks
+Using youtube-dl
+Using zsh
+Using zsh-autosuggestions
+Using zsh-completions
+Using zsh-git-prompt
+Using zsh-history-substring-search
+Using zsh-lovers
+Using zsh-navigation-tools
+Using zsh-syntax-highlighting
+Using zshdb
+Using snyk/tap/snyk
+Using spring-io/tap/spring-boot
+Using adobe-acrobat-reader
+Using anaconda
+Using android-file-transfer
+Using balenaetcher
+Using betterzip
+Using blender
+Using brave-browser
+Using bruno
+Using burn
+Using caffeine
+Using ccleaner
+Using cheatsheet
+Using chromium
+Using clipgrab
+Using cloudflare-warp
+Using cyberduck
+Using dash
+Installing deepl
+==> Downloading https://www.deepl.com/macos/download/24.1.2756848/DeepL_24.1.2756848.tar.gz
+curl: (22) The requested URL returned error: 404
+Error: Download failed on Cask 'deepl' with message: Download failed: https://www.deepl.com/macos/download/24.1.2756848/DeepL_24.1.2756848.tar.gz
+Installing deepl has failed!
+Using diffmerge
+Using discord
+Installing docker
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/934cbb9b3e4801e3a2793e48c84ec47fc488cd39/Casks/d/docker.rb
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/1ffd932b0fb49465985ceb70c3338871f52dfc0ef6cac1e7212f9a12df99d9eb--docker.rb
+==> Downloading https://desktop.docker.com/mac/main/arm64/137060/Docker.dmg
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/0c73352f52e8c3360350a70145e31e2fad42eda51fe0ed981575b45582ef7b31--Docker.dmg
+==> Installing Cask docker
+==> Moving App 'Docker.app' to '/Applications/Docker.app'
+==> Linking Binary 'docker' to '/usr/local/bin/docker'
+kuzmanov is not in the sudoers file.
+This incident has been reported to the administrator.
+==> Backing App 'Docker.app' up to '/opt/homebrew/Caskroom/docker/4.27.2,137060/Docker.app'
+Error: Failure while executing; `/usr/bin/sudo -E -- /bin/ln -h -f -s -- /opt/homebrew/Caskroom/docker/4.27.2,137060/Docker.app/Contents/Resources/bin/docker /usr/local/bin/docker` exited with 1. Here's the output:
+kuzmanov is not in the sudoers file.
+This incident has been reported to the administrator.
+==> Removing App '/Applications/Docker.app'
+==> Purging files for version 4.27.2,137060 of Cask docker
+Installing docker has failed!
+Using drawio
+Using dropbox
+Using elmedia-player
+Using emacs
+Installing firefox
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/934cbb9b3e4801e3a2793e48c84ec47fc488cd39/Casks/f/firefox.rb
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/35a03b20d6f6df2b1df59d0b85287096b431123f9afab2bee6dcfcf59583a7e1--firefox.rb
+==> Downloading https://download-installer.cdn.mozilla.net/pub/firefox/releases/122.0.1/mac/en-US/Firefox%20122.0.1.dmg
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/824d1beca6dcb11f1e605da964df2817d45a1458d6860744d9b488dc6388f5c4--Firefox 122.0.1.dmg
+==> Installing Cask firefox
+Error: It seems there is already an App at '/Applications/Firefox.app'.
+==> Purging files for version 122.0.1 of Cask firefox
+Installing firefox has failed!
+Installing firefox-developer-edition
+==> Downloading https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=osx&lang=en-US
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/382608000536d61f64e4a147e764c559ce144c3f04dd0f05209549d3bf118f1a--Firefox 123.0b9.dmg
+Warning: No checksum defined for cask 'firefox-developer-edition', skipping verification.
+==> Installing Cask firefox-developer-edition
+Error: It seems there is already an App at '/Applications/Firefox Developer Edition.app'.
+==> Purging files for version latest of Cask firefox-developer-edition
+Installing firefox-developer-edition has failed!
+Using gdisk
+Using gimp
+Using google-chrome
+Using google-drive
+Using github
+Using gpg-suite
+Using graphql-playground
+Using hammerspoon
+Using horos
+Using inkscape
+Using insomnia
+Using iterm2
+Using karabiner-elements
+Using keepingyouawake
+Using keka
+Using keybase
+Using kid3
+Using libreoffice
+Using libreoffice-language-pack
+Using malwarebytes
+Installing macfuse
+==> Caveats
+macfuse requires a kernel extension to work.
+If the installation fails, retry after you enable it in:
+  System Preferences → Security & Privacy → General
+
+For more information, refer to vendor documentation or this Apple Technical Note:
+  https://developer.apple.com/library/content/technotes/tn2459/_index.html
+
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/934cbb9b3e4801e3a2793e48c84ec47fc488cd39/Casks/m/macfuse.rb
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/ed12983e2650f41b0b481b4c52939282ce71e74aec86904036bb4282c025c24a--macfuse.rb
+==> Downloading https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.0/macfuse-4.6.0.dmg
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/fbc1e93ff4b2e277a02800e5ce8776354c1ae18d57dbddb1cd3d7d1464f495c0--macfuse-4.6.0.dmg
+==> Installing Cask macfuse
+==> Running installer for macfuse with sudo; the password may be necessary.
+kuzmanov is not in the sudoers file.
+This incident has been reported to the administrator.
+Error: Failure while executing; `/usr/bin/sudo -u root -E LOGNAME=kuzmanov USER=kuzmanov USERNAME=kuzmanov -- /usr/sbin/installer -pkg /opt/homebrew/Caskroom/macfuse/4.6.0/Extras/macFUSE\ 4.6.0.pkg -target /` exited with 1. Here's the output:
+kuzmanov is not in the sudoers file.
+This incident has been reported to the administrator.
+==> Purging files for version 4.6.0 of Cask macfuse
+Installing macfuse has failed!
+Using mediahuman-youtube-downloader
+Using microsoft-edge
+Using microsoft-edge-dev
+Using microsoft-teams
+Using mono-mdk
+Using mpv
+Using mullvadvpn
+Using music-manager
+Using musicbrainz-picard
+Using mysqlworkbench
+Installing ntfstool
+==> Downloading https://github.com/ntfstool/ntfstool/releases/download/2.3.2/NTFSTool-2.3.2.dmg
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/2e46890d248a9735ad185e8c519d0d72d64bf55864c2acb87f66d5f4683722d8--NTFSTool-2.3.2.dmg
+==> Installing dependencies: macfuse
+==> Caveats
+macfuse requires a kernel extension to work.
+If the installation fails, retry after you enable it in:
+  System Preferences → Security & Privacy → General
+
+For more information, refer to vendor documentation or this Apple Technical Note:
+  https://developer.apple.com/library/content/technotes/tn2459/_index.html
+
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/934cbb9b3e4801e3a2793e48c84ec47fc488cd39/Casks/m/macfuse.rb
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/ed12983e2650f41b0b481b4c52939282ce71e74aec86904036bb4282c025c24a--macfuse.rb
+==> Downloading https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.0/macfuse-4.6.0.dmg
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/fbc1e93ff4b2e277a02800e5ce8776354c1ae18d57dbddb1cd3d7d1464f495c0--macfuse-4.6.0.dmg
+==> Installing Cask macfuse
+==> Running installer for macfuse with sudo; the password may be necessary.
+kuzmanov is not in the sudoers file.
+This incident has been reported to the administrator.
+Error: Failure while executing; `/usr/bin/sudo -u root -E LOGNAME=kuzmanov USER=kuzmanov USERNAME=kuzmanov -- /usr/sbin/installer -pkg /opt/homebrew/Caskroom/macfuse/4.6.0/Extras/macFUSE\ 4.6.0.pkg -target /` exited with 1. Here's the output:
+kuzmanov is not in the sudoers file.
+This incident has been reported to the administrator.
+==> Purging files for version 4.6.0 of Cask macfuse
+Installing ntfstool has failed!
+Using paragon-ntfs
+Using onedrive
+Using opera
+Installing osxfuse
+==> Caveats
+`osxfuse` has been succeeded by `macfuse` as of version 4.0.0.
+
+To update to a newer version, do:
+  brew uninstall osxfuse
+  brew install macfuse
+
+osxfuse requires a kernel extension to work.
+If the installation fails, retry after you enable it in:
+  System Preferences → Security & Privacy → General
+
+For more information, refer to vendor documentation or this Apple Technical Note:
+  https://developer.apple.com/library/content/technotes/tn2459/_index.html
+
+You must reboot for the installation of osxfuse to take effect.
+
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/934cbb9b3e4801e3a2793e48c84ec47fc488cd39/Casks/o/osxfuse.rb
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/b61b7cc9815fb3f743607ac763f05b1f344a5550d5b97ef34bdedda980e9628e--osxfuse.rb
+==> Downloading https://github.com/osxfuse/osxfuse/releases/download/osxfuse-3.11.2/osxfuse-3.11.2.dmg
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/c3e68242cf1794b67a6b47745d4918712d81fef66294a99ebb93dc453e77421f--osxfuse-3.11.2.dmg
+==> Installing Cask osxfuse
+==> Running installer for osxfuse with sudo; the password may be necessary.
+kuzmanov is not in the sudoers file.
+This incident has been reported to the administrator.
+Error: Failure while executing; `/usr/bin/sudo -u root -E LOGNAME=kuzmanov USER=kuzmanov USERNAME=kuzmanov -- /usr/sbin/installer -pkg /opt/homebrew/Caskroom/osxfuse/3.11.2/Extras/FUSE\ for\ macOS\ 3.11.2.pkg -target /` exited with 1. Here's the output:
+kuzmanov is not in the sudoers file.
+This incident has been reported to the administrator.
+==> Purging files for version 3.11.2 of Cask osxfuse
+Installing osxfuse has failed!
+Using paintbrush
+Using pencil
+Using pinta
+Using plistedit-pro
+Using postman
+Using pycharm-ce-with-anaconda-plugin
+Using protonvpn
+Using qbittorrent
+Using qfinder-pro
+Using reikey
+Using resilio-sync
+Using shotcut
+Using smcfancontrol
+Installing soundflower
+==> Caveats
+soundflower requires a kernel extension to work.
+If the installation fails, retry after you enable it in:
+  System Preferences → Security & Privacy → General
+
+For more information, refer to vendor documentation or this Apple Technical Note:
+  https://developer.apple.com/library/content/technotes/tn2459/_index.html
+
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/934cbb9b3e4801e3a2793e48c84ec47fc488cd39/Casks/s/soundflower.rb
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/e6c3d72133c483e6e6f1b53f200d99097ab27b101128971e9f53c924797fba40--soundflower.rb
+==> Downloading https://github.com/mattingalls/Soundflower/releases/download/2.0b2/Soundflower-2.0b2.dmg
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/a5a5db9c3329c09fec5184ebaadd43fc8129140211235c4e0b91d03b818421b9--Soundflower-2.0b2.dmg
+==> Installing Cask soundflower
+==> Running installer for soundflower with sudo; the password may be necessary.
+kuzmanov is not in the sudoers file.
+This incident has been reported to the administrator.
+Error: Failure while executing; `/usr/bin/sudo -u root -E LOGNAME=kuzmanov USER=kuzmanov USERNAME=kuzmanov -- /usr/sbin/installer -pkg /opt/homebrew/Caskroom/soundflower/2.0b2/Soundflower.pkg -target /` exited with 1. Here's the output:
+kuzmanov is not in the sudoers file.
+This incident has been reported to the administrator.
+==> Purging files for version 2.0b2 of Cask soundflower
+Installing soundflower has failed!
+Using soundflowerbed
+Using sourcetree
+Using rectangle
+Using springtoolsuite
+Using studio-3t
+Using sublime-text
+Using teamviewer
+Using thunderbird
+Using time-out
+Using tor-browser
+Installing veracrypt
+==> Downloading https://launchpad.net/veracrypt/trunk/1.26.7/+download/VeraCrypt_1.26.7.dmg
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/cd1acb8f93739e5ca280a16784ac1e31128138f0a3334e4192bb4ed9de16b8ae--VeraCrypt_1.26.7.dmg
+==> Installing dependencies: macfuse
+==> Caveats
+macfuse requires a kernel extension to work.
+If the installation fails, retry after you enable it in:
+  System Preferences → Security & Privacy → General
+
+For more information, refer to vendor documentation or this Apple Technical Note:
+  https://developer.apple.com/library/content/technotes/tn2459/_index.html
+
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/934cbb9b3e4801e3a2793e48c84ec47fc488cd39/Casks/m/macfuse.rb
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/ed12983e2650f41b0b481b4c52939282ce71e74aec86904036bb4282c025c24a--macfuse.rb
+==> Downloading https://github.com/osxfuse/osxfuse/releases/download/macfuse-4.6.0/macfuse-4.6.0.dmg
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/fbc1e93ff4b2e277a02800e5ce8776354c1ae18d57dbddb1cd3d7d1464f495c0--macfuse-4.6.0.dmg
+==> Installing Cask macfuse
+==> Running installer for macfuse with sudo; the password may be necessary.
+kuzmanov is not in the sudoers file.
+This incident has been reported to the administrator.
+Error: Failure while executing; `/usr/bin/sudo -u root -E LOGNAME=kuzmanov USER=kuzmanov USERNAME=kuzmanov -- /usr/sbin/installer -pkg /opt/homebrew/Caskroom/macfuse/4.6.0/Extras/macFUSE\ 4.6.0.pkg -target /` exited with 1. Here's the output:
+kuzmanov is not in the sudoers file.
+This incident has been reported to the administrator.
+==> Purging files for version 4.6.0 of Cask macfuse
+Installing veracrypt has failed!
+Installing virtualbox
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/934cbb9b3e4801e3a2793e48c84ec47fc488cd39/Casks/v/virtualbox.rb
+Error: Cask virtualbox depends on hardware architecture being one of [{:type=>:intel, :bits=>64}], but you are running {:type=>:arm, :bits=>64}.
+Already downloaded: /Users/kuzmanov/Library/Caches/Homebrew/downloads/f763ac4fc312bd2ee8540f1e50a33e3574902fe749251d3a44d097d34151c86c--virtualbox.rb
+Installing virtualbox has failed!
+Using visual-paradigm-ce
+Using visual-studio-code
+Using visualvm
+Using vlc
+Using vuescan
+Using vysor
+Using warp
+Using wireshark
+Using xld
+Using xnviewmp
+Using xquartz
+Using xrg
+Using yed
+Using zoom
+Using visual-studio-code
+Using davidanson.vscode-markdownlint
+Using dorian-marchal.add-line-break
+Using dotjoshjohnson.xml
+Using estivo.csv-editor
+Using golang.go
+Using github.copilot
+Using grapecity.gc-excelviewer
+Using huntertran.auto-markdown-toc
+Using janisdd.vscode-edit-csv
+Using khaeransori.json2csv
+Using mdickin.markdown-shortcuts
+Using mechatroner.rainbow-csv
+Using ms-azuretools.vscode-docker
+Using ms-kubernetes-tools.vscode-kubernetes-tools
+Using ms-python.isort
+Using ms-python.python
+Using ms-python.vscode-pylance
+Using ms-toolsai.jupyter
+Using ms-toolsai.jupyter-keymap
+Using ms-toolsai.jupyter-renderers
+Using ms-toolsai.vscode-jupyter-cell-tags
+Using ms-toolsai.vscode-jupyter-slideshow
+Using ms-vscode-remote.remote-containers
+Using redhat.java
+Using redhat.vscode-commons
+Using redhat.vscode-yaml
+Using shengchen.vscode-checkstyle
+Using skn0tt.markdown-link-expander
+Using sonarsource.sonarlint-vscode
+Using streetsidesoftware.code-spell-checker
+Using visualstudioexptteam.intellicode-api-usage-examples
+Using visualstudioexptteam.vscodeintellicode
+Using vscjava.vscode-java-debug
+Using vscjava.vscode-java-dependency
+Using vscjava.vscode-java-pack
+Using vscjava.vscode-java-test
+Using vscjava.vscode-maven
+Using yzhang.markdown-all-in-one
+Homebrew Bundle failed! 12 Brewfile dependencies failed to install.
+Installation completed with errors. Check install_log.txt for details.

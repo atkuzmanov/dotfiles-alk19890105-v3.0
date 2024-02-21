@@ -1,0 +1,461 @@
+tap "adoptopenjdk/openjdk"
+tap "homebrew/bundle"
+tap "homebrew/cask-versions", "https://github.com/caskroom/homebrew-versions"
+tap "pivotal/tap"
+tap "spring-io/tap"
+tap "teamookla/speedtest"
+# Plugin manager for zsh, inspired by oh-my-zsh and vundle
+brew "antigen"
+# New file format for still image compression
+brew "jpeg-xl"
+# Codec library for encoding and decoding AV1 video streams
+brew "aom"
+# Mozilla CA certificate store
+brew "ca-certificates"
+# Companion library to apr, the Apache Portable Runtime library
+brew "apr-util"
+# Core application library for C
+brew "glib"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Shell extension to jump to frequently used directories
+brew "autojump"
+# Bash shell debugger
+brew "bashdb"
+# High performance key/value database
+brew "berkeley-db", link: true
+# Vector graphics library with cross-device output support
+brew "cairo"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Remove large files or passwords from Git history like git-filter-branch
+brew "bfg"
+# CD/DVD/Blu-ray premastering and recording software
+brew "cdrtools"
+# Check Java source against a coding standard
+brew "checkstyle"
+# Rootkit detector
+brew "chkrootkit"
+# Console Matrix
+brew "cmatrix"
+# Filename encoding conversion tool
+brew "convmv"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# C library implementing the SSH2 protocol
+brew "libssh2"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# Pack, ship and run any application as a lightweight container
+brew "docker", link: false
+# Isolated development environments using Docker
+brew "docker-compose", link: false
+# Text processing system for reStructuredText
+brew "docutils"
+# Charset analyzer and converter
+brew "enca"
+# Convert text to Postscript, HTML, or RTF, with syntax highlighting
+brew "enscript"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
+# Image processing and image analysis library
+brew "leptonica"
+# Framework for layout and rendering of i18n text
+brew "pango"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# Graphics library to dynamically manipulate images
+brew "gd"
+# Distributed revision control system
+brew "git"
+# Git extension for versioning large files
+brew "git-lfs"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg", link: false
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Generate introspection data for GObject libraries
+brew "gobject-introspection"
+# Development kit for the Java programming language
+brew "openjdk@11"
+# Web application framework for the Groovy language
+brew "grails"
+# GNU triangulated surface library
+brew "gts"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# Java-based scripting language
+brew "groovy", link: false
+# SDK for Groovy: a Java-based scripting language
+brew "groovysdk", link: false
+# SMART hard drive monitoring
+brew "smartmontools"
+# Graphical user interface for smartctl
+brew "gsmartcontrol"
+# Improved top (interactive process viewer)
+brew "htop"
+# Manage your Java environment
+brew "jenv"
+# Java servlet engine and webserver
+brew "jetty"
+# Use Jetty without an installed distribution
+brew "jetty-runner"
+# Load testing and performance measurement application
+brew "jmeter"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Tool to move from `docker-compose` to Kubernetes
+brew "kompose"
+# Kubernetes command-line interface
+brew "kubernetes-cli", link: false
+# Build tool for Clojure
+brew "leiningen"
+# Provides library functionality for FIDO U2F & FIDO 2.0, including USB
+brew "libfido2"
+# Friendly wrapper for launchctl
+brew "lunchy"
+# Java-based project management
+brew "maven"
+# Terminal-based visual file manager
+brew "midnight-commander"
+# Run a Kubernetes cluster locally
+brew "minikube"
+# Move, copy, append, and link multiple files
+brew "mmv"
+# Open source relational database management system
+brew "mysql"
+# HTTP/2 C Library
+brew "nghttp2"
+# Platform built on V8 to build network applications
+brew "node"
+# Extract ISO9660 data from Nero nrg files
+brew "nrg2iso"
+# Generate clients, server & docs from an OpenAPI spec (v2, v3)
+brew "openapi-generator"
+# Highly capable, feature-rich programming language
+brew "perl"
+# Create TCP tunnels through HTTPS proxies
+brew "proxytunnel"
+# Python version management
+brew "pyenv"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.8"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
+# Rsync for cloud storage
+brew "rclone"
+# Reattach process (e.g., tmux) to background
+brew "reattach-to-user-namespace"
+# Persistent key-value database, with built-in net interface
+brew "redis"
+# Perl-powered file rename script with many helpful built-ins
+brew "rename"
+# Standard unix software packaging tool
+brew "rpm"
+# Utility that provides fast incremental file transfer
+brew "rsync"
+# Build tool for Scala projects
+brew "sbt"
+# JVM-based programming language
+brew "scala"
+# Run scalastyle from the command-line
+brew "scalastyle"
+# Substitute for classic 'make' tool with autoconf/automake functionality
+brew "scons"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
+# Tool to create intelligent and beautiful documentation
+brew "sphinx-doc"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+# SSL tunneling program
+brew "stunnel"
+# Version control system designed to be a better CVS
+brew "subversion"
+# Open source continuous file synchronization application
+brew "syncthing"
+# Powerful free data recovery utility
+brew "testdisk"
+# Terminal multiplexer
+brew "tmux"
+# CPU, RAM memory, and load monitor for use with tmux
+brew "tmux-mem-cpu-load"
+# Manage complex tmux sessions easily
+brew "tmuxinator"
+# Implementation of Java Servlet and JavaServer Pages
+brew "tomcat"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Ncurses-based klondike solitaire game
+brew "tty-solitaire"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
+# Internet file retriever
+brew "wget"
+# Automatic workarounds for problems in Wine
+brew "winetricks"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
+# UNIX shell (command interpreter)
+brew "zsh"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+# Additional completion definitions for zsh
+brew "zsh-completions"
+# Informative git prompt for zsh
+brew "zsh-git-prompt"
+# Zsh port of Fish shell's history search
+brew "zsh-history-substring-search"
+# Tips, tricks, and examples for zsh
+brew "zsh-lovers"
+# Zsh curses-based tools, e.g. multi-word history searcher
+brew "zsh-navigation-tools"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
+# Debugger for zsh
+brew "zshdb"
+brew "spring-io/tap/spring-boot"
+# JDK from the Java User Group (JUG)
+cask "adoptopenjdk"
+# Prebuilt OpenJDK binaries
+cask "adoptopenjdk8"
+# Distribution of the Python and R programming languages for scientific computing
+cask "anaconda"
+# Transfer files from and to an Android smartphone
+cask "android-file-transfer"
+# Text editor
+cask "atom"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
+# Utility to create and modify archives
+cask "betterzip"
+# 3D creation suite
+cask "blender"
+# Web browser focusing on privacy
+cask "brave-browser"
+# CD burning application
+cask "burn"
+# Utility that prevents the system from going to sleep
+cask "caffeine"
+# Remove junk and unused files
+cask "ccleaner"
+# Tool to list all active shortcuts of the current application
+cask "cheatsheet"
+# Free and open-source web browser
+cask "chromium"
+# Free app that makes your Internet safer
+cask "cloudflare-warp"
+# Server and cloud storage browser
+cask "cyberduck"
+# API documentation browser and code snippet manager
+cask "dash"
+# Visually compare and merge files
+cask "diffmerge"
+# Voice and text chat software
+cask "discord"
+# App to build and share containerised applications and microservices
+cask "docker"
+# Client for the Dropbox cloud storage service
+cask "dropbox"
+# Eclipse IDE for Java EE developers
+cask "eclipse-jee"
+# Video and audio player
+cask "elmedia-player"
+# Text editor
+cask "emacs"
+# Web browser
+cask "firefox"
+# Web browser
+cask "firefox-developer-edition"
+# Disk partitioning tool
+cask "gdisk"
+# Free and open-source image editor
+cask "gimp"
+# Web browser
+cask "google-chrome"
+# Client for the Google Drive storage service
+cask "google-drive"
+# Tools to protect your emails and files
+cask "gpg-suite"
+# Desktop automation application
+cask "hammerspoon"
+# Medical image viewer
+cask "horos"
+# Vector graphics editor
+cask "inkscape"
+# HTTP and GraphQL Client
+cask "insomnia"
+# IDE for Java development - community edition
+cask "intellij-idea-ce"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# Legacy runtime for the Java programming language
+cask "java6"
+# Standalone Java Decompiler GUI
+cask "jd-gui"
+# Keyboard customiser
+cask "karabiner-elements"
+# Tool to prevent the system from going into sleep mode
+cask "keepingyouawake"
+# File archiver
+cask "keka"
+# End-to-end encryption software
+cask "keybase"
+# GUI replacement for the Java command-line utilities keytool and jarsigner
+cask "keystore-explorer"
+# Audio tagger focusing on efficiency
+cask "kid3"
+# Free cross-platform office suite, fresh version
+cask "libreoffice"
+# Collection of alternate languages for LibreOffice
+cask "libreoffice-language-pack"
+# File system integration
+cask "macfuse"
+# YouTube videos downloader
+cask "mediahuman-youtube-downloader"
+# Web browser
+cask "microsoft-edge"
+# Multi-platform web browser
+cask "microsoft-edge-dev"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
+# Open source implementation of Microsoft's .NET Framework
+cask "mono-mdk"
+# Media player based on MPlayer and mplayer2
+cask "mpv"
+# VPN client
+cask "mullvadvpn"
+# Upload music to the Google Music library
+cask "music-manager"
+# Music tagger
+cask "musicbrainz-picard"
+# Visual tool to design, develop and administer MySQL servers
+cask "mysqlworkbench"
+# Utility that provides NTFS read and write support
+cask "ntfstool"
+# Web browser
+cask "opera"
+# File system integration
+cask "osxfuse"
+# Image editor
+cask "paintbrush"
+# Read/write support for NTFS formatted volumes
+cask "paragon-ntfs"
+# GUI prototyping tool
+cask "pencil"
+# Simple Gtk# Paint Program
+cask "pinta"
+# Collaboration platform for API development
+cask "postman"
+# PyCharm IDE with Anaconda plugin
+cask "pycharm-ce-with-anaconda-plugin"
+# Peer to peer Bitorrent client
+cask "qbittorrent"
+# NAS management application
+cask "qfinder-pro"
+# Scans, detects, and monitors keyboard taps
+cask "reikey"
+# File sync and share software
+cask "resilio-sync"
+# MySQL/MariaDB database management platform
+cask "sequel-pro"
+# Instant messaging application focusing on security
+cask "signal"
+# Video chat, voice call and instant messaging application
+cask "skype"
+# Team communication and collaboration software
+cask "slack"
+# Sets a minimum speed for built-in fans
+cask "smcfancontrol"
+cask "soundflower"
+# Taps into Soundflower channels and route them to an audio device
+cask "soundflowerbed"
+# Move and resize windows with ease
+cask "spectacle"
+# Next generation tooling for Spring Boot
+cask "springtoolsuite"
+# Text editor for code, markup and prose
+cask "sublime-text"
+# Remote access and connectivity software focused on security
+cask "teamviewer"
+# Messaging app with a focus on speed and security
+cask "telegram"
+# Customizable email client
+cask "thunderbird"
+# Customizable timing of breaks
+cask "time-out"
+# Web browser focusing on security
+cask "tor-browser"
+# Development environment
+cask "vagrant"
+# Disk encryption software focusing on security based on TrueCrypt
+cask "veracrypt"
+# Calling and messaging application focusing on security
+cask "viber"
+# Virtualiser for x86 hardware
+cask "virtualbox"
+# UML, SysML, BPMN modelling platform
+cask "visual-paradigm-ce"
+# Open-source code editor
+cask "visual-studio-code"
+# All-in-One Java Troubleshooting Tool
+cask "visualvm"
+# Multimedia player
+cask "vlc"
+# Mirror and control your phone
+cask "vysor"
+# Rust-based terminal
+cask "warp"
+# Video communication and virtual meeting platform
+cask "webex-meetings"
+# Native desktop client for WhatsApp
+cask "whatsapp"
+# Network protocol analyzer
+cask "wireshark"
+# Lossless audio decoder
+cask "xld"
+# Photo viewer, image manager, image resiser and more
+cask "xnviewmp"
+# Open-source version of the X.Org X Window System
+cask "xquartz"
+# System monitor
+cask "xrg"
+# Create diagrams manually, or import external data for analysis
+cask "yed"
+vscode "davidanson.vscode-markdownlint"
+vscode "dorian-marchal.add-line-break"
+vscode "dotjoshjohnson.xml"
+vscode "estivo.csv-editor"
+vscode "github.copilot"
+vscode "grapecity.gc-excelviewer"
+vscode "huntertran.auto-markdown-toc"
+vscode "janisdd.vscode-edit-csv"
+vscode "khaeransori.json2csv"
+vscode "mdickin.markdown-shortcuts"
+vscode "mechatroner.rainbow-csv"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-kubernetes-tools.vscode-kubernetes-tools"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-vscode-remote.remote-containers"
+vscode "redhat.java"
+vscode "redhat.vscode-commons"
+vscode "redhat.vscode-yaml"
+vscode "shengchen.vscode-checkstyle"
+vscode "skn0tt.markdown-link-expander"
+vscode "sonarsource.sonarlint-vscode"
+vscode "streetsidesoftware.code-spell-checker"
+vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vscjava.vscode-java-debug"
+vscode "vscjava.vscode-java-dependency"
+vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-java-test"
+vscode "vscjava.vscode-maven"
+vscode "yzhang.markdown-all-in-one"
