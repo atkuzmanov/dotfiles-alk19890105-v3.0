@@ -110,7 +110,9 @@ brew "libidn2"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Pack, ship and run any application as a lightweight container
-brew "docker", link: false
+brew "docker"
+# Docker desktop?
+cask "docker"
 # Isolated development environments using Docker
 brew "docker-compose", link: false
 # Text processing system for reStructuredText
@@ -351,7 +353,7 @@ cask "cyberduck"
 # API documentation browser and code snippet manager
 cask "dash"
 # Trains AIs to understand and translate texts
-cask "deepl"
+# cask "deepl"
 # Visually compare and merge files
 cask "diffmerge"
 # Voice and text chat software
@@ -486,7 +488,9 @@ cask "sourcetree"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Next generation tooling for Spring Boot
-cask "springtoolsuite"
+# cask "springtoolsuite"
+# IDE, client, and GUI for MongoDB
+cask "studio-3t"
 # Text editor for code, markup and prose
 cask "sublime-text"
 # Remote access and connectivity software focused on security
@@ -534,7 +538,7 @@ cask "xnviewmp"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
 # System monitor
-cask "xrg"
+# cask "xrg"
 # Create diagrams manually, or import external data for analysis
 cask "yed"
 # Video communication and virtual meeting platform
